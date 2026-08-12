@@ -1,27 +1,45 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Runtime.CompilerServices;
+using Unity.Mathematics;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class PlayerSquare : MonoBehaviour
 {
-   [SerializeField] GameObject bulletPrefab;
-    public Camera myCamera;
-    public Rigidbody2D myRigidBody;
-    public float moveSpeed = 1f;
-    public void fireBullets(InputAction.CallbackContext ctx)
+    [SerializeField] BulletCircle bulletPrefab;
+    [SerializeField] Camera myCamera;
+    [SerializeField] Rigidbody2D myRigidBody;
+    [SerializeField] float moveSpeed = 1f;
+    [SerializeField] float bulletSpeed = 2f;
+    private bool isShooting = false;
+    [SerializeField] float fireRate = .3f;
+    [SerializeField] float fireCoolDown;
+    public void FireBullet()
     {
-      BulletCircle currentBullet = Instantiate(bulletPrefab).GetComponent<BulletCircle>();
-        //currentBullet.transform.position = new Vector2(Random.Range(0, 4), Random.Range(0, 4));
-        currentBullet.transform.position = this.transform.position;
-        currentBullet.GetComponent<Rigidbody2D>().velocity = Vector2.ClampMagnitude(myCamera.ScreenToWorldPoint(Input.mousePosition) - this.transform.position, 2);
-        //currentBullet.GetComponent<Rigidbody2D>().velocity = ctx.action.ReadValue<Vector2>();
+      BulletCircle currentBullet = Instantiate(bulletPrefab, transform.position, quaternion.identity);
+        currentBullet.transform.position = transform.position;
+        currentBullet.SetRbVelocity(Vector2.ClampMagnitude(myCamera.ScreenToWorldPoint(Input.mousePosition) - this.transform.position, bulletSpeed));
     }
-
-    public void move(InputAction.CallbackContext ctx)
+    public void Update()
     {
-        Vector2 myMoveVector = ctx.ReadValue<Vector2>();
-        // gameObject.transform.position += new Vector3(myMoveVector.x, myMoveVector.y, 0);
-        myRigidBody.velocity = myMoveVector.normalized * moveSpeed;
+        fireCoolDown -= Time.deltaTime;
+        if(isShooting && fireCoolDown <= 0)
+        {
+            FireBullet();
+            fireCoolDown = fireRate;
+        }
+    }
+    public void StartShooting()
+    {
+        isShooting = true;
+    }
+    public void CancelShooting()
+    {
+        isShooting = false;
+    }
+    public void Move(Vector2 moveVector)
+    {
+        myRigidBody.velocity = moveVector.normalized * moveSpeed;
     }
 }

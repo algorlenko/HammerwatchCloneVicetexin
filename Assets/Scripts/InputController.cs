@@ -7,12 +7,14 @@ public class InputController : MonoBehaviour
 {
     [SerializeField] InputActionReference fireAction;
     [SerializeField] InputActionReference moveAction;
-    public PlayerSquare myCharachter;
+    [SerializeField] PlayerSquare myCharachter;
    void OnEnable()
     {
 
         fireAction.action.Enable();
-        fireAction.action.performed += HandleFireInput;
+        fireAction.action.performed += OnFireInputPressed;
+        fireAction.action.canceled += OnFireInputReleased;
+
         moveAction.action.Enable();
         moveAction.action.performed += HandleMoveInput;
         moveAction.action.canceled += HandleMoveInput;
@@ -21,18 +23,26 @@ public class InputController : MonoBehaviour
    void OnDisable()
     {
         fireAction.action.Disable();
-        fireAction.action.performed -= HandleFireInput;
+        fireAction.action.performed -= OnFireInputPressed;
+        fireAction.action.canceled -= OnFireInputReleased;
         moveAction.action.Disable();
         moveAction.action.performed -= HandleMoveInput;
+        moveAction.action.canceled -= HandleMoveInput;
     }
 
 
-   void HandleFireInput(InputAction.CallbackContext ctx)
+   void OnFireInputPressed(InputAction.CallbackContext ctx)
     {
-        myCharachter.fireBullets(ctx); 
+        myCharachter.StartShooting(); 
     }
+    void OnFireInputReleased(InputAction.CallbackContext ctx)
+    {
+        myCharachter.CancelShooting();
+    }
+
     void HandleMoveInput(InputAction.CallbackContext ctx)
     {
-        myCharachter.move(ctx);
+        Vector2 myMoveVector = ctx.ReadValue<Vector2>();
+        myCharachter.Move(myMoveVector);
     }
 }
