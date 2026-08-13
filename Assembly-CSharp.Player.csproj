@@ -61,10 +61,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\InputController.cs" />
+    <Compile Include="Assets\Scripts\BulletSpawnerButton.cs" />
     <Compile Include="Assets\Scripts\Camera\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\BulletCircle.cs" />
     <Compile Include="Assets\Scripts\PlayerSquare.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Visual Assets\Pixel Art Top Down - Basic v1.2.3\Changelog.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
