@@ -1,0 +1,1662 @@
+fileFormatVersion: 2
+guid: 2dfd1d1dd622d214392877521e18f0ee
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 958
+        width: 33
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 909bc82aad0fa3943a80e5692ee4d11d
+      internalID: 583044002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_1
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 958
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adc3a77eefcc52544ab5de672177b82e
+      internalID: -755641494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 958
+        width: 34
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6205817c3aa4aaa4e84ca94837587163
+      internalID: 1721071688
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_3
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 958
+        width: 34
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cce7af97971b7149991fc178c0d66a6
+      internalID: 1162488467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_4
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 958
+        width: 35
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 322d1ab1249cbb5489f2c7fac4c5a849
+      internalID: -1007387319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_5
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 958
+        width: 36
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e11c93a839eb30a488ddf3083960d194
+      internalID: -1216973738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_6
+      rect:
+        serializedVersion: 2
+        x: 503
+        y: 958
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b349bd07abb2b409e953abc0bed427
+      internalID: -2078182069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_7
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 847
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 818dafa7fc78a5b4fad5559c567699cd
+      internalID: 1581055281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_8
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 845
+        width: 36
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcae9c5dbd762ba4ebfa272bfc6c9e17
+      internalID: 1305064257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_9
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 846
+        width: 34
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f49db9945234b4aa1f57159a8dfcaa
+      internalID: 1603636518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_10
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 847
+        width: 33
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc717d2e24e38e4f9d4d2813b378ca5
+      internalID: -1032934005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_11
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 847
+        width: 35
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83fa175320613154b9e54b083ade0e04
+      internalID: -700928298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_12
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 846
+        width: 36
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5d4444d879894146b6ed1761e33b399
+      internalID: -1454609621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_13
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 846
+        width: 38
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d733420d6f42514894ddc996857681a
+      internalID: 1855200856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_14
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 734
+        width: 31
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81098beede765a14db9d733f09ed52ab
+      internalID: -2008733588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_15
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 735
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b54d8c828d551fa4599b101fa64445ec
+      internalID: 289830620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_16
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 735
+        width: 43
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6943a43e56a659a40bb78d8ca8c3f5d2
+      internalID: -835471031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_17
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 735
+        width: 45
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bea2a0f2c0fd6e48a5729decc954bc9
+      internalID: -718885441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_18
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 735
+        width: 50
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9d903a09a459d849a6faf20d6bca022
+      internalID: -742617297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_19
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 735
+        width: 56
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96a6ad2cd32b1e3479067fdfb4f15724
+      internalID: 1662847768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_21
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 604
+        width: 41
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c2467e83a1d0f40bc1d4fb89569c3b
+      internalID: -2076817731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_22
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 604
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0684cae6d3bc374a8be5dba6c2b7d2d
+      internalID: -2103610215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_23
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 604
+        width: 51
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cccb7cffc8c5997498f85148040f4d88
+      internalID: 896183173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_24
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 604
+        width: 57
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a674211f9c45d5645854577c598db242
+      internalID: -2007664585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_25
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 604
+        width: 67
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dcc67d31be7f2b4e8e1fffe049791a7
+      internalID: -60833364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_27
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 604
+        width: 41
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3ed0d2644f4854798e73370a7c61e5
+      internalID: -1795073722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_28
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 604
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 747d711173cc6924185b45294f7232e7
+      internalID: -130866451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_29
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 489
+        width: 43
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd3ca1e11e87e04ba2dee50be7d64c5
+      internalID: 1361240992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_30
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 489
+        width: 44
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7727174021982d748bf631cf8c25f063
+      internalID: 1234447761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_31
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 489
+        width: 71
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1439b7c3d62cd97499b37b9ecfce6e30
+      internalID: -2093514727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_32
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 489
+        width: 79
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63af013bb99527e45ab3aeb5965afed2
+      internalID: -149368675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_33
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 489
+        width: 42
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 856b5c9aca503b64a9b9a274863b3c49
+      internalID: 680101550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_34
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 489
+        width: 36
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a1f23a275c4cc347927a11b04b12388
+      internalID: -1545308709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_35
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 502
+        width: 58
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f70473d6c060f2479e8679da717921c
+      internalID: 1035480946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_36
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 384
+        width: 38
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53970d8bce23b2e4e9f437036f3d1858
+      internalID: -2015811699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_37
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 384
+        width: 42
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e96c0afb28426b4bad0f27f462db37b
+      internalID: -605329329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_38
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 382
+        width: 45
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61b7f9aeb9f796c4d93c76dc8fd9a1d5
+      internalID: -1243767340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_39
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 379
+        width: 52
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfe9943e0d697de4c85d1d2c5ba0040b
+      internalID: 19327445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_40
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 367
+        width: 62
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeceeb8a15548d84a8c6e03f9c26c320
+      internalID: -1568518124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_41
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 362
+        width: 61
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a3e2d709d7a8d4aa66e2c0bcf1528e
+      internalID: 1081232220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_43
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 384
+        width: 40
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c45618825bc317a4f89c4c57b59aee7c
+      internalID: -2147082807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_44
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 385
+        width: 42
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed18c2e19beb50747a9ecc3dd9965119
+      internalID: -178141607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_45
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 265
+        width: 45
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9567fc7a9c4e0da4eb71069119d249ad
+      internalID: -840504085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_46
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 265
+        width: 42
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ca415595bc65e54ebdcb3cb6a43c178
+      internalID: 234983997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_47
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 264
+        width: 40
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca33fd0bd1df90040a322e1902826a20
+      internalID: -1115862519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_48
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 264
+        width: 37
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9232f1d6a28530a45bbfa117d400321f
+      internalID: -2057838461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_49
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 263
+        width: 37
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 360d9fb20c92c494bbe7f3361954d825
+      internalID: 788893105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_50
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 144
+        width: 70
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b92ab4d0200a804087087de1febdc27
+      internalID: 108981321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_51
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 144
+        width: 67
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5815cb5b7b351064aa457b2ef0c9ea4f
+      internalID: -801355317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_52
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 142
+        width: 64
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 973ce13839100b64f94bb233d40fdc52
+      internalID: -859932320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_53
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 139
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f1a5ada384d3a4180a6804003680a5
+      internalID: 1525534591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_54
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 135
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f3d170f81cbbb24bbd8ac4519b14d84
+      internalID: -1339462272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_55
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 149
+        width: 39
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3982cbe26a40474cbafbc57faa85c92
+      internalID: 2089529736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_56
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 72
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab08984f2aa8fc4c8a57b5e452ddb79
+      internalID: -1273625633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_57
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 79
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 240d07330d5d20c43b0479ed2d9be7d4
+      internalID: -222301521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_58
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 84
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5893ff51159d0e343998525b11e3c98d
+      internalID: 1279623414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_59
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 84
+        width: 50
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a93e0a7f69077e44a908c76a761ac08f
+      internalID: -230739343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_60
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 86
+        width: 54
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4ced8c758989db4f969efeac8665253
+      internalID: -785877922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_61
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 84
+        width: 64
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2be058d1c20384248a1999b6ed6003a5
+      internalID: -2026552496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_62
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 84
+        width: 50
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bce5d4870518844fae14e96424af558
+      internalID: -800431623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_63
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 114
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89ba4330e7e60304681707807c7ce119
+      internalID: -1385117905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_64
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 79
+        width: 41
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 239f099fdea4ef146a4f81d337ab2714
+      internalID: 1479076234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_65
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 76
+        width: 35
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39ff58aff3e6d045a2ba81e69e86227
+      internalID: 1499315481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_70
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 90
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dfd8ee7957a0d245b943ab5644173e3
+      internalID: 342552656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_72
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 84
+        width: 5
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb9af9bbe1d1934b8347b0867f6321a
+      internalID: 475831156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_73
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 9
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d32e705a94fa1dc4abfa94bb067e1193
+      internalID: 902945858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_74
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 9
+        width: 29
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7a852a0e670d47458e5976e86a3d81c
+      internalID: -966971490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_75
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 8
+        width: 36
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 958ae9cdb57d1354687ff235c3073f2e
+      internalID: -243141508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_76
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 8
+        width: 29
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b68f1bdace745041994f62a0ebf485b
+      internalID: -1368342680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_77
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 8
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e316754c752ead048b55b3ea9464df40
+      internalID: -1089392888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_0: 583044002
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_1: -755641494
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_10: -1032934005
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_11: -700928298
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_12: -1454609621
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_13: 1855200856
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_14: -2008733588
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_15: 289830620
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_16: -835471031
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_17: -718885441
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_18: -742617297
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_19: 1662847768
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_2: 1721071688
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_20: -555175060
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_21: -2076817731
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_22: -2103610215
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_23: 896183173
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_24: -2007664585
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_25: -60833364
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_26: 999525048
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_27: -1795073722
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_28: -130866451
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_29: 1361240992
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_3: 1162488467
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_30: 1234447761
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_31: -2093514727
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_32: -149368675
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_33: 680101550
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_34: -1545308709
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_35: 1035480946
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_36: -2015811699
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_37: -605329329
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_38: -1243767340
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_39: 19327445
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_4: -1007387319
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_40: -1568518124
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_41: 1081232220
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_42: 1027157840
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_43: -2147082807
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_44: -178141607
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_45: -840504085
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_46: 234983997
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_47: -1115862519
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_48: -2057838461
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_49: 788893105
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_5: -1216973738
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_50: 108981321
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_51: -801355317
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_52: -859932320
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_53: 1525534591
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_54: -1339462272
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_55: 2089529736
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_56: -1273625633
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_57: -222301521
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_58: 1279623414
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_59: -230739343
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_6: -2078182069
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_60: -785877922
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_61: -2026552496
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_62: -800431623
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_63: -1385117905
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_64: 1479076234
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_65: 1499315481
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_66: 1739592318
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_67: -180966700
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_68: -1433328958
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_69: -1508508849
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_7: 1581055281
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_70: 342552656
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_71: 1825906507
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_72: 475831156
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_73: 902945858
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_74: -966971490
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_75: -243141508
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_76: -1368342680
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_77: -1089392888
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_8: 1305064257
+      PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk_9: 1603636518
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

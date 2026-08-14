@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Pool;
+
 [RequireComponent(typeof(Rigidbody2D))]
 public class BulletCircle : MonoBehaviour
 {
     private const float BulletDurationSeconds = 2f;
     [SerializeField] private Rigidbody2D myBody;
+    private IObjectPool<BulletCircle> objectPool;
+    public IObjectPool<BulletCircle> ObjectPool { set => objectPool = value; }
 
     void Awake()
     {
@@ -18,7 +22,9 @@ public class BulletCircle : MonoBehaviour
     private IEnumerator BulletTimeOutAfterDelay(float delaySeconds)
     {
         yield return new WaitForSeconds(delaySeconds);
-        Destroy(gameObject);
+        myBody.velocity = new Vector2(0f, 0f);
+        myBody.angularVelocity = 0;
+        objectPool.Release(this);
     }
 
     public void SetRbVelocity(Vector2 moveVector)

@@ -643,7 +643,7 @@ SpriteRenderer:
   m_SortingLayerID: 882883817
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 583044002, guid: 2dfd1d1dd622d214392877521e18f0ee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -673,6 +673,8 @@ MonoBehaviour:
   bulletSpeed: 2
   fireRate: 0.3
   fireCoolDown: 0
+  playerBulletPool: {fileID: 2048389563}
+  mySprite: {fileID: 581063666}
 --- !u!50 &581063668
 Rigidbody2D:
   serializedVersion: 4
@@ -736,7 +738,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 0.33, y: 0.78}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -2963,6 +2965,7 @@ GameObject:
   - component: {fileID: 1193472288}
   - component: {fileID: 1193472289}
   - component: {fileID: 1193472290}
+  - component: {fileID: 1193472291}
   m_Layer: 0
   m_Name: EnemyTriangle
   m_TagString: Untagged
@@ -3026,7 +3029,7 @@ SpriteRenderer:
   m_SortingLayerID: 882883817
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
+  m_Sprite: {fileID: 1503287630, guid: 83520fd01cba85e418eee21d39c90fcd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3072,6 +3075,19 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.21133333}
   m_Size: {x: 1, y: 1}
   m_Direction: 0
+--- !u!114 &1193472291
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193472287}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab48aa0aabc6812419ce98d0a9b32a5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hp: 10
 --- !u!1 &1231379292
 GameObject:
   m_ObjectHideFlags: 0
@@ -3265,6 +3281,54 @@ Transform:
   - {fileID: 895865369}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2048389562
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2048389564}
+  - component: {fileID: 2048389563}
+  m_Layer: 0
+  m_Name: PlayerBulletObjectPool
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2048389563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048389562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec17fc7e77287c241bb6ffa007c3d798, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  collectionCheck: 1
+  projectilePrefab: {fileID: 1925870485922649758, guid: f5c922f2058e7f441884e59229e1337a, type: 3}
+  defaultCapacity: 20
+  maxSize: 100
+--- !u!4 &2048389564
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048389562}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.69012827, y: 0.47170088, z: -0.045543924}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -3275,3 +3339,4 @@ SceneRoots:
   - {fileID: 1193472288}
   - {fileID: 1547770914}
   - {fileID: 1231379296}
+  - {fileID: 2048389564}

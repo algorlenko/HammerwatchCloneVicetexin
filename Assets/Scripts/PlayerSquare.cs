@@ -15,9 +15,13 @@ public class PlayerSquare : MonoBehaviour
     private bool isShooting = false;
     [SerializeField] float fireRate = .3f;
     [SerializeField] float fireCoolDown;
+    [SerializeField] BulletObjectPool playerBulletPool;
+    [SerializeField] SpriteRenderer mySprite;
     public void FireBullet()
     {
-      BulletCircle currentBullet = Instantiate(bulletPrefab, transform.position, quaternion.identity);
+        // BulletCircle currentBullet = Instantiate(bulletPrefab, transform.position, quaternion.identity);
+        // above is the old non object pooled way of making a bullet
+        BulletCircle currentBullet = playerBulletPool.objectPool.Get();
         currentBullet.transform.position = transform.position;
         currentBullet.SetRbVelocity(Vector2.ClampMagnitude(myCamera.ScreenToWorldPoint(Input.mousePosition) - this.transform.position, bulletSpeed));
     }
@@ -40,6 +44,8 @@ public class PlayerSquare : MonoBehaviour
     }
     public void Move(Vector2 moveVector)
     {
+        mySprite.flipX = moveVector.x < 0;
+        //mySprite.flipY = moveVector.y < 0; // the HOMM3 spritesheet does not play nicely with flipping y
         myRigidBody.velocity = moveVector.normalized * moveSpeed;
     }
 }

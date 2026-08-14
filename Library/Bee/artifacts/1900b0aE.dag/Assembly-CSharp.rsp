@@ -377,10 +377,11 @@
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/Scripts/BulletCircle.cs"
+"Assets/Scripts/BulletObjectPool.cs"
 "Assets/Scripts/BulletSpawnerButton.cs"
 "Assets/Scripts/Camera/CameraFollow.cs"
+"Assets/Scripts/EnemyTriangle.cs"
 "Assets/Scripts/InputController.cs"
-"Assets/Scripts/NewBehaviourScript.cs"
 "Assets/Scripts/PlayerSquare.cs"
 -langversion:9.0
 /deterministic
