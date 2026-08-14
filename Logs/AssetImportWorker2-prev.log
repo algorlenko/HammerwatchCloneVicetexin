@@ -1,0 +1,2627 @@
+Using pre-set license
+Built from '2022.3/respin/2022.3.62f2-4af31df585-v2' branch; Version is '2022.3.62f3 (96770f904ca7) revision 9860879'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit Enterprise' Language: 'en' Physical Memory: 65317 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/Sasha/HammerwatchCloneVicetexin
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+50179
+Successfully changed project path to: C:/Users/Sasha/HammerwatchCloneVicetexin
+C:/Users/Sasha/HammerwatchCloneVicetexin
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12524]  Target information:
+
+Player connection [12524]  * "[IP] 192.168.32.1 [Port] 0 [Flags] 2 [Guid] 3235253456 [EditorId] 3235253456 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7D927AU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12524]  * "[IP] 192.168.1.151 [Port] 0 [Flags] 2 [Guid] 3235253456 [EditorId] 3235253456 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-7D927AU) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [12524] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [12524] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+Refreshing native plugins compatible for Editor in 10.36 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.62f3 (96770f904ca7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Sasha/HammerwatchCloneVicetexin/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 5700 XT (ID=0x731f)
+    Vendor:   ATI
+    VRAM:     8124 MB
+    Driver:   32.0.12019.1028
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56032
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003565 seconds.
+- Loaded All Assemblies, in  0.229 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.186 seconds
+Domain Reload Profiling: 414ms
+	BeginReloadAssembly (73ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (89ms)
+		LoadAssemblies (72ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (87ms)
+			TypeCache.Refresh (86ms)
+				TypeCache.ScanAssembly (78ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (186ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (155ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (107ms)
+			ProcessInitializeOnLoadMethodAttributes (33ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.463 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.500 seconds
+Domain Reload Profiling: 962ms
+	BeginReloadAssembly (104ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (6ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (299ms)
+		LoadAssemblies (223ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (139ms)
+			TypeCache.Refresh (119ms)
+				TypeCache.ScanAssembly (108ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (501ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (405ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (47ms)
+			ProcessInitializeOnLoadAttributes (321ms)
+			ProcessInitializeOnLoadMethodAttributes (27ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 4.13 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4806 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 46 unused Assets / (244.6 KB). Loaded Objects now: 5268.
+Memory consumption went from 155.7 MB to 155.4 MB.
+Total: 2.837800 ms (FindLiveObjects: 0.215600 ms CreateObjectMapping: 0.109600 ms MarkObjects: 2.362400 ms  DeleteObjects: 0.148700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 16050.866465 seconds.
+  path: Assets/Prefabs/BulletCircle.prefab
+  artifactKey: Guid(f5c922f2058e7f441884e59229e1337a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/BulletCircle.prefab using Guid(f5c922f2058e7f441884e59229e1337a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd6befac0695316ae66eeb4a57e349171') in 0.077604 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.607 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.613 seconds
+Domain Reload Profiling: 1220ms
+	BeginReloadAssembly (381ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (269ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (23ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (170ms)
+		LoadAssemblies (216ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (614ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (451ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (59ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (29ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 5.78 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4800 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (216.6 KB). Loaded Objects now: 5282.
+Memory consumption went from 159.0 MB to 158.8 MB.
+Total: 3.197200 ms (FindLiveObjects: 0.291200 ms CreateObjectMapping: 0.124900 ms MarkObjects: 2.541300 ms  DeleteObjects: 0.238400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.387 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.792 seconds
+Domain Reload Profiling: 1177ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (29ms)
+	RebuildCommonClasses (24ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (240ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (31ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (15ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (792ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (50ms)
+			ProcessInitializeOnLoadAttributes (279ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.93 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4802 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (216.8 KB). Loaded Objects now: 5288.
+Memory consumption went from 159.3 MB to 159.0 MB.
+Total: 2.851100 ms (FindLiveObjects: 0.235900 ms CreateObjectMapping: 0.120900 ms MarkObjects: 2.342800 ms  DeleteObjects: 0.150300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/EnemyTriangle.cs: 1f4c3b89eb713329c59f32925eef9f1d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 624995ad97b0182929aca27ee3838563 -> 621099acaf7ad80b6c9e2d55e4d9ae14
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.379 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.788 seconds
+Domain Reload Profiling: 1165ms
+	BeginReloadAssembly (117ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (8ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (22ms)
+	LoadAllAssembliesAndSetupDomain (208ms)
+		LoadAssemblies (241ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (26ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (788ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (363ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (23ms)
+			AfterProcessingInitializeOnLoad (4ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Refreshing native plugins compatible for Editor in 3.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4802 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (216.6 KB). Loaded Objects now: 5293.
+Memory consumption went from 159.3 MB to 159.0 MB.
+Total: 2.912800 ms (FindLiveObjects: 0.245800 ms CreateObjectMapping: 0.130300 ms MarkObjects: 2.395200 ms  DeleteObjects: 0.141000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 9a22284fe3817be447336de3de66b15e -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/EnemyTriangle.cs: 1f4c3b89eb713329c59f32925eef9f1d -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/precompiled-assembly-types:Assembly-CSharp: 624995ad97b0182929aca27ee3838563 -> 621099acaf7ad80b6c9e2d55e4d9ae14
+========================================================================
+Received Import Request.
+  Time since last request: 2676.504016 seconds.
+  path: Assets/Visual Assets/HOMM3/PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk.png
+  artifactKey: Guid(2dfd1d1dd622d214392877521e18f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/HOMM3/PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk.png using Guid(2dfd1d1dd622d214392877521e18f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '04180123df993b040d8bcba15d2b73b0') in 0.061690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 26.582094 seconds.
+  path: Assets/Visual Assets/HOMM3/PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk.png
+  artifactKey: Guid(2dfd1d1dd622d214392877521e18f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/HOMM3/PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk.png using Guid(2dfd1d1dd622d214392877521e18f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2d1ac725a9a9b973c75847ff8b0a48d3') in 0.015326 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 83.513787 seconds.
+  path: Assets/Visual Assets/HOMM3/PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk.png
+  artifactKey: Guid(2dfd1d1dd622d214392877521e18f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/HOMM3/PC _ Computer - Heroes of Might and Magic 3 - Castle Units - Monk.png using Guid(2dfd1d1dd622d214392877521e18f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '32fa5a6549f367839122fb8b58c30fea') in 0.120176 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 258.686286 seconds.
+  path: Assets/Visual Assets/HOMM3/PC _ Computer - Heroes of Might and Magic 3 - Rampart Units - Wood Elf.png
+  artifactKey: Guid(83520fd01cba85e418eee21d39c90fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/HOMM3/PC _ Computer - Heroes of Might and Magic 3 - Rampart Units - Wood Elf.png using Guid(83520fd01cba85e418eee21d39c90fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '53aa96f5c3304c6016d08ba6c72180e6') in 0.022679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.097907 seconds.
+  path: Assets/Visual Assets/HOMM3/Magic Monk.png
+  artifactKey: Guid(2dfd1d1dd622d214392877521e18f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/HOMM3/Magic Monk.png using Guid(2dfd1d1dd622d214392877521e18f0ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bcfcdb2a0f808fa930318d9e31ff1796') in 0.097941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 4.606435 seconds.
+  path: Assets/Visual Assets/HOMM3/Wood Elf Archer.png
+  artifactKey: Guid(83520fd01cba85e418eee21d39c90fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/HOMM3/Wood Elf Archer.png using Guid(83520fd01cba85e418eee21d39c90fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e8ff0ab59e9fb393581935fe06ddc04e') in 0.019843 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 67.953599 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX_impact
+  artifactKey: Guid(e17bca606b6e942489023b3ed854f075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX_impact using Guid(e17bca606b6e942489023b3ed854f075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78076005eb865fb47ffd454286d7cfac') in 0.000522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.654661 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX
+  artifactKey: Guid(440c0ddd47257784cabf9def97896d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX using Guid(440c0ddd47257784cabf9def97896d33) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e825e37fcde82b6e1e05dc358bf1d9f9') in 0.000517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.071275 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_01.png
+  artifactKey: Guid(a23698e75db6f3e49a54b783295e0ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_01.png using Guid(a23698e75db6f3e49a54b783295e0ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8dcd55df140c7261e1ec884a23fecb7e') in 0.026349 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_05.png
+  artifactKey: Guid(b0ceff4103d5b2145a0db7b8e33312d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_05.png using Guid(b0ceff4103d5b2145a0db7b8e33312d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5d2f82dcc012d0fc5a6323696c99d783') in 0.016633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_93.png
+  artifactKey: Guid(8e53e9edda994a645a354d1a87bcefc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_93.png using Guid(8e53e9edda994a645a354d1a87bcefc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9990869e3516a069463c7742cc19a6bc') in 0.015853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_95.png
+  artifactKey: Guid(b1602d5c1ecdff44fbed5a0d4259a4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_95.png using Guid(b1602d5c1ecdff44fbed5a0d4259a4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3e5d76c138ad232d38aa8c7db74a222') in 0.016320 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_105.png
+  artifactKey: Guid(8849dc477927ef44f8b5ea034814bf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_105.png using Guid(8849dc477927ef44f8b5ea034814bf47) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e10ec33af9b3b57f8390d77e1a2587f6') in 0.014916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_18.png
+  artifactKey: Guid(e558c50dda4bec349a40b4e0aac43f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_18.png using Guid(e558c50dda4bec349a40b4e0aac43f0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5335d12fcba5a4df76acc97112464acf') in 0.014465 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_102.png
+  artifactKey: Guid(3e7c963273109ca4fbdcb44bae378e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_102.png using Guid(3e7c963273109ca4fbdcb44bae378e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '458d0acf5e00176764888777b50e09fa') in 0.014272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_28.png
+  artifactKey: Guid(13a190b6fe35512488903925462a63a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_28.png using Guid(13a190b6fe35512488903925462a63a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1a8940f2ea2ed9a1c08435d212ce545f') in 0.013584 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_69.png
+  artifactKey: Guid(d84cc5988c71d74458d28ca5a4cf823f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_69.png using Guid(d84cc5988c71d74458d28ca5a4cf823f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1bf6a6f0fbc3f72bfb0eb98ff4774d91') in 0.013598 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_83.png
+  artifactKey: Guid(4642bd46c06b59749bf05dcdbc012447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_83.png using Guid(4642bd46c06b59749bf05dcdbc012447) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b8edc49e5177162966da8cabefd002fe') in 0.012514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_56.png
+  artifactKey: Guid(f98311be7864ab647b6e2d461367bb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_56.png using Guid(f98311be7864ab647b6e2d461367bb92) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '22730f6ccac521d99b258501f40e05cd') in 0.016414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_101.png
+  artifactKey: Guid(58413d4557cf88b448c8703ee626f7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_101.png using Guid(58413d4557cf88b448c8703ee626f7fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd164c8392c45d9dd718d20dfbf08acf9') in 0.013244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_107.png
+  artifactKey: Guid(e0d6c4b5b90b7644584a443902c685da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_107.png using Guid(e0d6c4b5b90b7644584a443902c685da) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0f0f67299cd61d4e94facb86d8290d0') in 0.013305 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_110.png
+  artifactKey: Guid(f15ce6e1237ca834abbff193bce166ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_110.png using Guid(f15ce6e1237ca834abbff193bce166ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4dd052d1efa0909a662043889687cd56') in 0.016415 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_86.png
+  artifactKey: Guid(3fb99d161227beb4ab6a4537dc7ab53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_86.png using Guid(3fb99d161227beb4ab6a4537dc7ab53c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '46264ad036e4c3b299c41d71b87781e8') in 0.013508 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_87.png
+  artifactKey: Guid(dd90a1d80f9f8a643a548a01d6ec7bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_87.png using Guid(dd90a1d80f9f8a643a548a01d6ec7bba) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a40801616f199b0ca0399527b0ee62d1') in 0.014364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_104.png
+  artifactKey: Guid(669d397151072b545bb4e0168df4bccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_104.png using Guid(669d397151072b545bb4e0168df4bccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a7a086fb7e26ca4b4fba615176ba2f4e') in 0.016298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_99.png
+  artifactKey: Guid(e354f62266a388b4ba537365f91a572a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_99.png using Guid(e354f62266a388b4ba537365f91a572a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'def0c53d239a974f078745a420149ec3') in 0.013830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_109.png
+  artifactKey: Guid(1990ecfdc1a4f7e45832984e1b692d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_109.png using Guid(1990ecfdc1a4f7e45832984e1b692d60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c23b6de6ecd30ebcd3ade08572fb3f6e') in 0.015112 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_23.png
+  artifactKey: Guid(8d23fd4ac9ecca44fb1ac9ccfe1f5173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_23.png using Guid(8d23fd4ac9ecca44fb1ac9ccfe1f5173) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '91cd2fd38306dfea5869fad70d25ee88') in 0.015520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_10.png
+  artifactKey: Guid(eb9e78c731070064da7124e4ab666933) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_10.png using Guid(eb9e78c731070064da7124e4ab666933) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cadbec582dfea1f7b6002dea54d79075') in 0.013734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_100.png
+  artifactKey: Guid(2311dbe492bfe9446bbd7c07e95b16a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_100.png using Guid(2311dbe492bfe9446bbd7c07e95b16a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1c94dd213c8ef61a06515b784b65a091') in 0.012867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_32.png
+  artifactKey: Guid(6d9e9e82f9b856049a8fa6dcb0721275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_32.png using Guid(6d9e9e82f9b856049a8fa6dcb0721275) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '284c6601eede2935bb7c906721c9faff') in 0.013697 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_35.png
+  artifactKey: Guid(0af26b865e225a94f8643347a299fe59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_35.png using Guid(0af26b865e225a94f8643347a299fe59) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0d2ff8a3d08e31e5f72ef5d0e4a2367a') in 0.015520 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_17.png
+  artifactKey: Guid(bf181924b7d400f4ab1a0a9eb5d4cf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_17.png using Guid(bf181924b7d400f4ab1a0a9eb5d4cf23) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '55c01fa7ca06c52d97544da648e06d2e') in 0.015454 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_66.png
+  artifactKey: Guid(810a5945dfdf877488216674855642c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_66.png using Guid(810a5945dfdf877488216674855642c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cc5a4bde853df8a41b622db1968771fa') in 0.014588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_90.png
+  artifactKey: Guid(63f65fb77d3693740b19043c2b40b6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_90.png using Guid(63f65fb77d3693740b19043c2b40b6c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bb9dcecb3160794a858816f76c25a1a7') in 0.014189 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_33.png
+  artifactKey: Guid(007c1a594c313e14a800e036271649f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_33.png using Guid(007c1a594c313e14a800e036271649f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2bd46f2b3a84e726b9a5a11bb1421359') in 0.013381 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_74.png
+  artifactKey: Guid(8b9f1484fb2878644b8be506b95cb746) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_74.png using Guid(8b9f1484fb2878644b8be506b95cb746) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '302f61bca211cff5853da35758fa6685') in 0.013360 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_61.png
+  artifactKey: Guid(c4ed7d93d187b77429a4c11761aafb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_61.png using Guid(c4ed7d93d187b77429a4c11761aafb76) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2bc150c481b11d68f013b21b6784a18b') in 0.014439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_27.png
+  artifactKey: Guid(346680f2c9b7eb445a8316ba1da40824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_27.png using Guid(346680f2c9b7eb445a8316ba1da40824) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8e4f571d740a0dd8cc4ebd467c9617f7') in 0.014957 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_80.png
+  artifactKey: Guid(a10ac5a6a94fa004f814d2538985ca84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_80.png using Guid(a10ac5a6a94fa004f814d2538985ca84) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4d7309a46a78576ba3cf85c562d66659') in 0.013676 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_12.png
+  artifactKey: Guid(5fbfb33c9eaa7ef4493daaa22119e035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_12.png using Guid(5fbfb33c9eaa7ef4493daaa22119e035) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6ec15554d4ec56ef55c06380459fd3bc') in 0.013730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_38.png
+  artifactKey: Guid(94c34916618b7494c85047ad361e8947) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_38.png using Guid(94c34916618b7494c85047ad361e8947) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3ab70f960d6d50b3c20ed4e559fee050') in 0.015526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_11.png
+  artifactKey: Guid(eaf101e168b24954ba5d6c4fa6efbbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_11.png using Guid(eaf101e168b24954ba5d6c4fa6efbbb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5b3dc1c6578c5a4962eb3820d065cf6d') in 0.014252 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_44.png
+  artifactKey: Guid(0a7d7f88ba2ffc748b7f480d228bf5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_44.png using Guid(0a7d7f88ba2ffc748b7f480d228bf5ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c3b51d14db7fbdc10f3765a742aa1713') in 0.014698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_50.png
+  artifactKey: Guid(c6c38113f116bc74f95a63cc4192b420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_50.png using Guid(c6c38113f116bc74f95a63cc4192b420) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fa78f6ea109b614027cff828228dfad7') in 0.015570 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_48.png
+  artifactKey: Guid(92c92ace9f421c04290230463f486012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_48.png using Guid(92c92ace9f421c04290230463f486012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1f4c86c470377b1f054370d7dbf33a80') in 0.014323 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_64.png
+  artifactKey: Guid(030109e4730add8479abd752c8a7b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_64.png using Guid(030109e4730add8479abd752c8a7b91b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '394f096fce66a885df2f936077bfc5d0') in 0.017078 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_45.png
+  artifactKey: Guid(fcdc38932c92ed9409110a0ec30e7acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_45.png using Guid(fcdc38932c92ed9409110a0ec30e7acc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '633a2e19083d468ab56bba4f32f349bf') in 0.013876 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_43.png
+  artifactKey: Guid(d847c19b50d9de2408bd2fe709778b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_43.png using Guid(d847c19b50d9de2408bd2fe709778b44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9cd3cf7dfb3ba0cec7b55de1028c2021') in 0.013844 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_85.png
+  artifactKey: Guid(1438db6c117e4ce45829bbd4d98de110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_85.png using Guid(1438db6c117e4ce45829bbd4d98de110) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9bc4f945bbc73f1ca1759ceab9ad58ba') in 0.013153 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_09.png
+  artifactKey: Guid(8be1811aa32106d48830128972f08740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_09.png using Guid(8be1811aa32106d48830128972f08740) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b5496c14dea21c8103232d3713acb596') in 0.016008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_59.png
+  artifactKey: Guid(7f6b6001c12692b4e80696305019c266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_59.png using Guid(7f6b6001c12692b4e80696305019c266) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '37c5714260a5068a4db0734816a82008') in 0.014114 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_46.png
+  artifactKey: Guid(51a2d4634c16d97479bd6ea695a53574) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_46.png using Guid(51a2d4634c16d97479bd6ea695a53574) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8ff17cb5f74190f9e131d2b3e4a39469') in 0.015085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_31.png
+  artifactKey: Guid(68fe0541a1dfd404897506cbe6883b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_31.png using Guid(68fe0541a1dfd404897506cbe6883b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8f657209c435f50a01985487a1c4cf96') in 0.006595 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_04.png
+  artifactKey: Guid(43453835bcd486d4b97c10401ac697f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_04.png using Guid(43453835bcd486d4b97c10401ac697f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6f5ca46c1a21f359bf784c7390c16f74') in 0.012974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_29.png
+  artifactKey: Guid(0b0e68957395aca4e8fa739c76236e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_29.png using Guid(0b0e68957395aca4e8fa739c76236e0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a4c2bd7eea247b1613e92bdd679b049d') in 0.014663 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_54.png
+  artifactKey: Guid(2ce018ca07f42604c9e6ff442354da7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_54.png using Guid(2ce018ca07f42604c9e6ff442354da7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0c038756500554d8c10ab0967baef66b') in 0.014708 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_62.png
+  artifactKey: Guid(d07720e83a905414381e395167ba00bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_62.png using Guid(d07720e83a905414381e395167ba00bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9c4b9c16614a85a420cf338dbe2eaa88') in 0.014120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_37.png
+  artifactKey: Guid(740b827a4eba3944d87795c9db74c6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_37.png using Guid(740b827a4eba3944d87795c9db74c6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9bd5fac6c363434b73132a4bf066eaee') in 0.015171 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_94.png
+  artifactKey: Guid(deca0ac24c2e4964f8ad338713bae5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_94.png using Guid(deca0ac24c2e4964f8ad338713bae5f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '629d6b79593e3af1b4dd2d8e0216d502') in 0.014730 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_79.png
+  artifactKey: Guid(61d5dbe1975e47b42823c9b01cc8f340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_79.png using Guid(61d5dbe1975e47b42823c9b01cc8f340) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bd450b12891aa415628e4b0247c3697f') in 0.015462 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_06.png
+  artifactKey: Guid(63af39190469e274d8904062ae01eed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_06.png using Guid(63af39190469e274d8904062ae01eed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8938ad31fe5948021e47a5b91b92a595') in 0.015423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_51.png
+  artifactKey: Guid(7945c7cb647ffbe4da9b29f263684a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_51.png using Guid(7945c7cb647ffbe4da9b29f263684a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8659788dd66e1ce44b641c2724de5f02') in 0.013173 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX/uf_FX_60.png
+  artifactKey: Guid(04694c9b84f777d4a8288105ee24ebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX/uf_FX_60.png using Guid(04694c9b84f777d4a8288105ee24ebd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '3fdf819a2a4e26ce68f43e986f448667') in 0.013764 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.497162 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_01.png
+  artifactKey: Guid(36b3fef544699d4428f11e46effb1f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_01.png using Guid(36b3fef544699d4428f11e46effb1f00) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '71813149afe19a99bf3268344408c92d') in 0.017287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_12.png
+  artifactKey: Guid(4e6d5c914007eb643970ab708c7f5afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_12.png using Guid(4e6d5c914007eb643970ab708c7f5afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aa0f4a4fc07795699026eee96a78d2d4') in 0.017425 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_03.png
+  artifactKey: Guid(52187d782af33974f99c354ddc1a84f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_03.png using Guid(52187d782af33974f99c354ddc1a84f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b8a508f3a9201944c70ad4022d388903') in 0.015340 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_16.png
+  artifactKey: Guid(ed4c284c314fb084da4c0da0f22d5def) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_16.png using Guid(ed4c284c314fb084da4c0da0f22d5def) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1505c4d817e323a7356bab3216fd21cd') in 0.015473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_09.png
+  artifactKey: Guid(9e11318328b32664aa6ca85c1dad9a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_09.png using Guid(9e11318328b32664aa6ca85c1dad9a55) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd1dd46d5ad7970a446ce1b2547aa9995') in 0.015560 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_08.png
+  artifactKey: Guid(dc49dc0c897323249a86ce0be20a0ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_08.png using Guid(dc49dc0c897323249a86ce0be20a0ecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b37dcec88dc661b95f9c408e108b6b0c') in 0.016220 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_14.png
+  artifactKey: Guid(21f61a849ce62a444b1b21234a47f8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_14.png using Guid(21f61a849ce62a444b1b21234a47f8c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd5e81d786e275f0ea69f5cf2dab7e3dd') in 0.015062 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_17.png
+  artifactKey: Guid(b1fab247293fc944f8fb35d5e31297bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_FX_impact/uf_FX_impact_17.png using Guid(b1fab247293fc944f8fb35d5e31297bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '75a194536911e148513e335996e8dc86') in 0.014868 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.514224 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain
+  artifactKey: Guid(f973605dff94ac94ab0091bece242f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain using Guid(f973605dff94ac94ab0091bece242f1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '307710451db1873397565cf62e5ca1f1') in 0.000456 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.064202 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/altar_blood.png
+  artifactKey: Guid(b161ee6f5fbf8da42995b59b214bbe08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/altar_blood.png using Guid(b161ee6f5fbf8da42995b59b214bbe08) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ef493adcf019f62be6b6b368ff303fb0') in 0.028814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_metal_6.png
+  artifactKey: Guid(8ac1520edb64bd640a2ea687985d1452) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_metal_6.png using Guid(8ac1520edb64bd640a2ea687985d1452) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '595624f9d5feb9c355c98b9f5a2c4fa6') in 0.015339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_metal_8.png
+  artifactKey: Guid(dc97ef72f29dd2c4e9623cc9dea908a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_metal_8.png using Guid(dc97ef72f29dd2c4e9623cc9dea908a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd74294a4f264ff1954003cf276956b65') in 0.015204 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/cursor_3.png
+  artifactKey: Guid(a6e81515d75890f4cbeb41086cd1e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/cursor_3.png using Guid(a6e81515d75890f4cbeb41086cd1e425) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a62890e70d57d1854ba1f3d6f6aa9bbb') in 0.015682 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/cursor_2.png
+  artifactKey: Guid(610e5667c6fbb38408fc8754d29ff7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/cursor_2.png using Guid(610e5667c6fbb38408fc8754d29ff7b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b0187a7e33e88fbdb33495c8073f1934') in 0.007455 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_metal_4.png
+  artifactKey: Guid(6317b0dd9dc0d6a49a296f90d9569197) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_metal_4.png using Guid(6317b0dd9dc0d6a49a296f90d9569197) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '87e93b5eb85e93659ca18f3335c5ffaf') in 0.015818 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_ruin_8.png
+  artifactKey: Guid(cc60d55ec7b10db42ae6377c0ae1651b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_ruin_8.png using Guid(cc60d55ec7b10db42ae6377c0ae1651b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5bcce49e7897d9b9da35b1fb0b76a2d7') in 0.006724 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/fence_5.png
+  artifactKey: Guid(2e8c0a8adb063734b98a2ee7c2e3332d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/fence_5.png using Guid(2e8c0a8adb063734b98a2ee7c2e3332d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0e6e2ba8c50be75ea70ef529148b57df') in 0.016074 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_ruin_4.png
+  artifactKey: Guid(b95e853a0d3013b43b05c3a4c0da5faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_ruin_4.png using Guid(b95e853a0d3013b43b05c3a4c0da5faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f34a70624a66b7c01fb7cc02acf0977e') in 0.016292 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_gate_5.png
+  artifactKey: Guid(bd296d2a7ca8f174cafc5e638e9c3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_gate_5.png using Guid(bd296d2a7ca8f174cafc5e638e9c3e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '81cf7fc1c2590fac09ee67dbada8478b') in 0.016657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_wood_5.png
+  artifactKey: Guid(0fce986243a06b540b221084aa2c4f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_wood_5.png using Guid(0fce986243a06b540b221084aa2c4f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e214380ab4a1de0c65561f1321725c27') in 0.014432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/coffin_open.png
+  artifactKey: Guid(814def6b637ff574d9f41f387a15c699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/coffin_open.png using Guid(814def6b637ff574d9f41f387a15c699) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '137c86d647929263d7aa06d2afb6deb1') in 0.014837 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_ruin_1.png
+  artifactKey: Guid(046d3cda3c9ec314e8db9e0e48ef6f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_ruin_1.png using Guid(046d3cda3c9ec314e8db9e0e48ef6f30) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1b7ef58f622d6b0c8066358cb36b7757') in 0.014530 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/coffin_bones.png
+  artifactKey: Guid(2b6f3207823ac7e40b1b46e37dbfaec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/coffin_bones.png using Guid(2b6f3207823ac7e40b1b46e37dbfaec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c50e14aa686fc7f9d829084d950dd327') in 0.013269 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/cursor_5.png
+  artifactKey: Guid(eadd6863e5d54734e8414617b13cd6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/cursor_5.png using Guid(eadd6863e5d54734e8414617b13cd6fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0d413b0aa6b08f3f311481d145a27dfd') in 0.015107 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_metal_9.png
+  artifactKey: Guid(3a0fe6f52f4446b4eb5b53cac1afddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_metal_9.png using Guid(3a0fe6f52f4446b4eb5b53cac1afddf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ff548ed15567a55a9c94dff68e4431b1') in 0.014377 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_gate_2.png
+  artifactKey: Guid(278a90ab3161e344baa0a31e0bcdddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_gate_2.png using Guid(278a90ab3161e344baa0a31e0bcdddce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9a714525f7a25daa4b457d532ffb5ec1') in 0.016813 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_ruin_3.png
+  artifactKey: Guid(df639bfaca4ec0f4fbdd864830e4394d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_ruin_3.png using Guid(df639bfaca4ec0f4fbdd864830e4394d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6435998766f8ab1fcdaf9a7452b9c331') in 0.013925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/bones_1.png
+  artifactKey: Guid(9af36aefeb4cccd44b4676b5afdd3e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/bones_1.png using Guid(9af36aefeb4cccd44b4676b5afdd3e82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a64892b3919f5c7ef2958408992c4d07') in 0.015060 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_stone_11.png
+  artifactKey: Guid(dfe2494de96bb1846b2febf7836a07eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_stone_11.png using Guid(dfe2494de96bb1846b2febf7836a07eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'adedec5aef625186ee0226b7b1944c68') in 0.013116 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/dust.png
+  artifactKey: Guid(429246825be6dcd4bb0362b4ad3a53d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/dust.png using Guid(429246825be6dcd4bb0362b4ad3a53d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b6c55e3b0bfa3391feb6b13a53e4cfa7') in 0.016000 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/crate.png
+  artifactKey: Guid(dcdd795757bbdb14aa24b98e4ee0e825) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/crate.png using Guid(dcdd795757bbdb14aa24b98e4ee0e825) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bd8c759385dec6a874a4e30e6ff9d59c') in 0.012777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_gate_7.png
+  artifactKey: Guid(23c80a51f6318874fafb7b8411dd4268) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_gate_7.png using Guid(23c80a51f6318874fafb7b8411dd4268) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8efb06c7a9a2bb226d43a559be8f3877') in 0.015311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_ruin_5.png
+  artifactKey: Guid(0092bce299274e141b05cdc0e8d2d6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_ruin_5.png using Guid(0092bce299274e141b05cdc0e8d2d6f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7758770ba2470b584c66f328da5cd50e') in 0.013863 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/coffin.png
+  artifactKey: Guid(6d9b35aa450b7e94787dec7db2f6b237) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/coffin.png using Guid(6d9b35aa450b7e94787dec7db2f6b237) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '084211201904ebb9833f1645dded105e') in 0.014669 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/fence.png
+  artifactKey: Guid(9ffb2573fbbec1348b6a80fcbe46afd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/fence.png using Guid(9ffb2573fbbec1348b6a80fcbe46afd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ec2e8201f86ff9042f76cabf5e081bac') in 0.015656 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_trap_closed_brown.png
+  artifactKey: Guid(f9039b0305698c341b050b54bf4e148c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_trap_closed_brown.png using Guid(f9039b0305698c341b050b54bf4e148c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '266a20182905cbac350f11a56fc4b7ca') in 0.013689 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/carpet_2.png
+  artifactKey: Guid(99d3f1800d44c1c43bc28fb5b4a05c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/carpet_2.png using Guid(99d3f1800d44c1c43bc28fb5b4a05c9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6fe89721566cabef23704663cc82cb61') in 0.015067 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_metal_10.png
+  artifactKey: Guid(5891252c4349eba46a9ee75eae591f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_metal_10.png using Guid(5891252c4349eba46a9ee75eae591f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aaa6d2f3b12e76f91fdfbc6d89d86426') in 0.014691 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/carpet_4.png
+  artifactKey: Guid(f9cc1535611bf5e46a2421e1f14c1848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/carpet_4.png using Guid(f9cc1535611bf5e46a2421e1f14c1848) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '98e9f54545c1e8dc36b0b8db6d23e3a3') in 0.015399 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_gate.png
+  artifactKey: Guid(12f980d44c5e5ec45ae0c22e967d8ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_gate.png using Guid(12f980d44c5e5ec45ae0c22e967d8ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aea4f6b1f210b616b1692ff2c860e4a8') in 0.014443 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/fence_4.png
+  artifactKey: Guid(3d8a0c6c39228ea4e82c1267f5d6b94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/fence_4.png using Guid(3d8a0c6c39228ea4e82c1267f5d6b94d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2f95ec7e69e11f0bda3fc1562334abde') in 0.015144 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_metal_5.png
+  artifactKey: Guid(1012e1d86b550bd46b661b9acaf089bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_metal_5.png using Guid(1012e1d86b550bd46b661b9acaf089bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '78ceaa64732d1eb15c3d917e06b53c15') in 0.015009 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/cursor_1.png
+  artifactKey: Guid(c57b1a3ee8cf9f44b96a31a5b0efa540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/cursor_1.png using Guid(c57b1a3ee8cf9f44b96a31a5b0efa540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb507616d04dec125084a16478ac7c04') in 0.015588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/door_trap_open_brown.png
+  artifactKey: Guid(05132fa299d1d4944a0176e0e137a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/door_trap_open_brown.png using Guid(05132fa299d1d4944a0176e0e137a39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9e5570624d7e6bc43683020abc0d507b') in 0.014391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/fence_6.png
+  artifactKey: Guid(6b1d7247d164d9642ab7d8e07786d689) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/fence_6.png using Guid(6b1d7247d164d9642ab7d8e07786d689) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '690c8d83fc34f94dfaf24b214919a728') in 0.013845 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/cursor.png
+  artifactKey: Guid(90e4f65042e62d841a815342b7f79803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/cursor.png using Guid(90e4f65042e62d841a815342b7f79803) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1d6863aa36c4b924c72634ced2ac2687') in 0.007797 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.431753 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/fence_10.png
+  artifactKey: Guid(dd8c9e8903983dc4299cb82eab7b0f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/fence_10.png using Guid(dd8c9e8903983dc4299cb82eab7b0f63) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5c2b48216769b8ddcb5e1c050c1b5c58') in 0.018613 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_crusted_grey_3.png
+  artifactKey: Guid(d764d6d4c0212fc4d83f72dfde20995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_crusted_grey_3.png using Guid(d764d6d4c0212fc4d83f72dfde20995c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e856359e953a9d07d1543bc6bae25b0d') in 0.018873 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_diagonal_red_1.png
+  artifactKey: Guid(65c91e68e20082a468b7d0e569313b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_diagonal_red_1.png using Guid(65c91e68e20082a468b7d0e569313b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '739a27acbcb43ce0332520a1ec9430f8') in 0.014521 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_extra_2.png
+  artifactKey: Guid(0756d57f11a7453418848ec505c7f3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_extra_2.png using Guid(0756d57f11a7453418848ec505c7f3ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b4f8954444f4a01e261a0c2530e494cc') in 0.014990 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_diagonal_red_3.png
+  artifactKey: Guid(a173e52153d67aa4e82c024968015bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_diagonal_red_3.png using Guid(a173e52153d67aa4e82c024968015bda) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2219ba136d392e2ab2933135a94738ca') in 0.014675 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/fence_14.png
+  artifactKey: Guid(824c6abbd1295364691667dd8f69daf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/fence_14.png using Guid(824c6abbd1295364691667dd8f69daf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9c18f6d055a85ac320b5a306be3269f1') in 0.014710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_crusted_grey.png
+  artifactKey: Guid(856c1a7a2d41bab40a4410585567e59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_crusted_grey.png using Guid(856c1a7a2d41bab40a4410585567e59e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cc07c3ab2af418624a2ae6b6b7621cc9') in 0.014255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_diagonal_red.png
+  artifactKey: Guid(187f30bc718670c42b4498b42bbc16d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_diagonal_red.png using Guid(187f30bc718670c42b4498b42bbc16d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2cc456eae37c2b61268936a60d14a9a0') in 0.015016 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_diagonal_blue.png
+  artifactKey: Guid(8622ec0899e32124fa18029747ed3467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_diagonal_blue.png using Guid(8622ec0899e32124fa18029747ed3467) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c40a951ea869266f597e7946d388d5d5') in 0.014577 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.132149 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_extra_3.png
+  artifactKey: Guid(7f98f1736c7926d43998d9b9ae17fac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_extra_3.png using Guid(7f98f1736c7926d43998d9b9ae17fac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ac6200e1708c659aa885123ccb39736a') in 0.020141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_extra_13.png
+  artifactKey: Guid(790cb015fbdc1cd4c9d4c8a1a2efbe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_extra_13.png using Guid(790cb015fbdc1cd4c9d4c8a1a2efbe5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5f25fde5432ee43f555ac6d0cd2f347e') in 0.015798 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_set_blue_4.png
+  artifactKey: Guid(546298b20b5c79c4cbe5dc386a945573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_set_blue_4.png using Guid(546298b20b5c79c4cbe5dc386a945573) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '222fc6a38aacc506e0abb2eb495e108d') in 0.013002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_set_dark_9.png
+  artifactKey: Guid(41394c706a2a0ec438041c588ad35b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_set_dark_9.png using Guid(41394c706a2a0ec438041c588ad35b54) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8ccbf262fcb938f74425f526e87d7543') in 0.015785 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_set_blue_10.png
+  artifactKey: Guid(5baf0720b90a2cd41b61a073ddaa850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_set_blue_10.png using Guid(5baf0720b90a2cd41b61a073ddaa850a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9ca2f297457e3b84684ebb0db89fe521') in 0.024887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_set_dark_10.png
+  artifactKey: Guid(7c4f69fee0244c147a4d2824ba53308d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_set_dark_10.png using Guid(7c4f69fee0244c147a4d2824ba53308d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4b54c30f19e44320cd6cced74cb2d0c7') in 0.014937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_extra_23.png
+  artifactKey: Guid(7bacca4dfbd49e542ab0d0ed76beb220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_extra_23.png using Guid(7bacca4dfbd49e542ab0d0ed76beb220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4f8e1cb27749319e44fe880dcac4808c') in 0.015707 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_set_dark_7.png
+  artifactKey: Guid(a20e5724878487341a6fc3909e3eca73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_set_dark_7.png using Guid(a20e5724878487341a6fc3909e3eca73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '810ebd9ebc7fe859d967043e7c96538e') in 0.014794 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_set_dark_6.png
+  artifactKey: Guid(373df5c7843498f4c835499e8460cd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_set_dark_6.png using Guid(373df5c7843498f4c835499e8460cd7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '017fb160abcf42397000334cbbb8e7b9') in 0.015770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_set_grey_4.png
+  artifactKey: Guid(e693a747947287842825b67aa0f7cada) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_set_grey_4.png using Guid(e693a747947287842825b67aa0f7cada) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'aa080bf8783eb98b8678c9b5a10707eb') in 0.014572 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_extra_6.png
+  artifactKey: Guid(a40ee0337d543404ebf310ef4767928a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_extra_6.png using Guid(a40ee0337d543404ebf310ef4767928a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a011eccd48e977303266338e2a380f1b') in 0.014925 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_extra_20.png
+  artifactKey: Guid(c57b6c804206d184894f6449af949dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_extra_20.png using Guid(c57b6c804206d184894f6449af949dac) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8b7e63e2002e7d294ff40927c3d24225') in 0.016685 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_set_dark_1.png
+  artifactKey: Guid(05cde8dbc344df24d8326716bd848a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_set_dark_1.png using Guid(05cde8dbc344df24d8326716bd848a37) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e833e519e968f5b57e3886c1a6f318fd') in 0.015658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_set_dark.png
+  artifactKey: Guid(bd829b3752f0b514a8ee4060f1074b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_set_dark.png using Guid(bd829b3752f0b514a8ee4060f1074b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a725ed0c92d3ffc2b863d05b016c6f14') in 0.014953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_extra_14.png
+  artifactKey: Guid(babc02a79b91b2e44862b68795da36c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_extra_14.png using Guid(babc02a79b91b2e44862b68795da36c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6f71da417b4f3c2ae99334c9a40408da') in 0.016260 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_set_grey_2.png
+  artifactKey: Guid(2584a9affce1c9a4c9e16371b96e937f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_set_grey_2.png using Guid(2584a9affce1c9a4c9e16371b96e937f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '02a661a84eca6930daa8c07b0a36325a') in 0.014871 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_extra_7.png
+  artifactKey: Guid(86277792855ec0f429a5a2c176457f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_extra_7.png using Guid(86277792855ec0f429a5a2c176457f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f78e8dc7b242c7919c27def5fd3617ba') in 0.014279 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.135061 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_set_grey_8.png
+  artifactKey: Guid(7e0afbb1540c0bc48a1c4e16e4174d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_set_grey_8.png using Guid(7e0afbb1540c0bc48a1c4e16e4174d3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c23ddfb02d324f94f05961687f429b91') in 0.018535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/fountain_pool.png
+  artifactKey: Guid(337602d29f9260840ae6d3318c9a81ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/fountain_pool.png using Guid(337602d29f9260840ae6d3318c9a81ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '43efdd2f850ff917c345108842bd731a') in 0.018266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_tile_sandy_2.png
+  artifactKey: Guid(5b55f4d97d8565544a66d0e74c8f60c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_tile_sandy_2.png using Guid(5b55f4d97d8565544a66d0e74c8f60c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c131c6fce2a69beaf1a68715f5712eae') in 0.015692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/grave.png
+  artifactKey: Guid(5b348498588ab8742a476fd72bd1dc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/grave.png using Guid(5b348498588ab8742a476fd72bd1dc3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f96ed26cbb9cdebdfaafd6301697b260') in 0.023077 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_wood.png
+  artifactKey: Guid(fc43219b5cbb56d4aad838f39ca3e081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_wood.png using Guid(fc43219b5cbb56d4aad838f39ca3e081) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '627a63e13cc925a57a1a0f76286cc1e4') in 0.014615 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/floor_tile_sandy_1.png
+  artifactKey: Guid(9dd4c737d06b282468fda1cfb307c079) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/floor_tile_sandy_1.png using Guid(9dd4c737d06b282468fda1cfb307c079) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c7c7fbe71b52c45b986065f0fa70707b') in 0.014022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/ground_crusted_1.png
+  artifactKey: Guid(e27ed13f643f84c49a750dec78166d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/ground_crusted_1.png using Guid(e27ed13f643f84c49a750dec78166d25) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '601c0ae7fec93a535c4337b9030ae0c0') in 0.015289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/ground_dirt_brown_1.png
+  artifactKey: Guid(060d5f3bd312e424a83dc04532fa31c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/ground_dirt_brown_1.png using Guid(060d5f3bd312e424a83dc04532fa31c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '901f20b660ef4d5a14a82e6aa11e2e26') in 0.014012 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/ground_crusted_light_3.png
+  artifactKey: Guid(01156732b9ebd214a93699cdf9c902fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/ground_crusted_light_3.png using Guid(01156732b9ebd214a93699cdf9c902fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1bd973cf19f84cce58d0980e02c78492') in 0.015974 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.063065 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/ground_dirt_brown_2.png
+  artifactKey: Guid(199e2627ff4a8b640aee79ae6c2aeb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/ground_dirt_brown_2.png using Guid(199e2627ff4a8b640aee79ae6c2aeb0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fe04698d65c4c6ade9057b46fc05a8c3') in 0.017978 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/leaves_brown.png
+  artifactKey: Guid(69c2b2b9c1c1e8a46a846c235fd5230b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/leaves_brown.png using Guid(69c2b2b9c1c1e8a46a846c235fd5230b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd0621e75d49ed1cff1ccd862ca977cec') in 0.017626 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/leaves_brown_2.png
+  artifactKey: Guid(01dc284c30951a3418c2385d464cc7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/leaves_brown_2.png using Guid(01dc284c30951a3418c2385d464cc7f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '518ce8a9b9be891d249954ad38b2bf98') in 0.014620 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/puddle_large_4.png
+  artifactKey: Guid(eef740e8d6695f7438e487c0fa554a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/puddle_large_4.png using Guid(eef740e8d6695f7438e487c0fa554a60) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cdb20d31fc18df41bc4dc1a10c025dfa') in 0.015235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/torch2_floor.png
+  artifactKey: Guid(be9fbb8348115f34c92ea73cb3b35e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/torch2_floor.png using Guid(be9fbb8348115f34c92ea73cb3b35e7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8fcbc6ad9737173f4e2a320cbd4f43b5') in 0.016795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/rune_2.png
+  artifactKey: Guid(8cdea2eb9e83084429f10de39206e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/rune_2.png using Guid(8cdea2eb9e83084429f10de39206e423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '2304deeb69cfcffad560aa75b02553c4') in 0.014770 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__19.png
+  artifactKey: Guid(0894f8386b2ee7d40ab84d6f0590a5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__19.png using Guid(0894f8386b2ee7d40ab84d6f0590a5c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ea6ab096fb89d20e2a3968fd0fa8e90d') in 0.013647 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__14.png
+  artifactKey: Guid(e7439922cea2181448e0f82dc3560399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__14.png using Guid(e7439922cea2181448e0f82dc3560399) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0b1e04a830d1f04f7c6b5e363200d04e') in 0.015771 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/ground_dirt_dark_1.png
+  artifactKey: Guid(70074c2f958a25946b8dd4f8c744e264) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/ground_dirt_dark_1.png using Guid(70074c2f958a25946b8dd4f8c744e264) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd115b7a3841252ddb58ee1ceceaec3d3') in 0.016916 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/ground_sand.png
+  artifactKey: Guid(aef8ccf715fb17b42a3f30d28f1209c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/ground_sand.png using Guid(aef8ccf715fb17b42a3f30d28f1209c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '11d40f789627180d453e694f6909f5c3') in 0.014601 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/lilypad_b1.png
+  artifactKey: Guid(9b1dd31bb36b7874ab1dd64772479cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/lilypad_b1.png using Guid(9b1dd31bb36b7874ab1dd64772479cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b2b3b104f45d6d9456121f4f5b02da67') in 0.013940 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/table_lab.png
+  artifactKey: Guid(f0d19a2194ea9f44eafd6b599333e76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/table_lab.png using Guid(f0d19a2194ea9f44eafd6b599333e76f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f3cf093d6a067db2ec2388dd9967ddfc') in 0.016356 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/puddle_small_3.png
+  artifactKey: Guid(34b63f4be71cdda4aa90968b7236c000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/puddle_small_3.png using Guid(34b63f4be71cdda4aa90968b7236c000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bd37e94401472c1b25497d50331a6798') in 0.013853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/ground_grass_2.png
+  artifactKey: Guid(9961ca96bf32250488a3edb0e8c8ae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/ground_grass_2.png using Guid(9961ca96bf32250488a3edb0e8c8ae88) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '9e1ea2c59045c1646011a3f74856ea9b') in 0.017288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/ground_grass.png
+  artifactKey: Guid(f9e44d14a714484478bf1cfafa43b69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/ground_grass.png using Guid(f9e44d14a714484478bf1cfafa43b69f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c8bfd49541f5415130aaa9aaeaa54d7f') in 0.014266 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__5.png
+  artifactKey: Guid(381d97624eb7bdf4c96130dfe5058897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__5.png using Guid(381d97624eb7bdf4c96130dfe5058897) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6e9c546c65f2adf40ad979a6067ed2d5') in 0.006538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__17.png
+  artifactKey: Guid(4a6172c9ab462cc44a68919aa8886562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__17.png using Guid(4a6172c9ab462cc44a68919aa8886562) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'de11fab7e04d334b60df3aaa24ba78b2') in 0.016734 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/ground_sand_1.png
+  artifactKey: Guid(44dbb3d09494160469c4ee53cb65d441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/ground_sand_1.png using Guid(44dbb3d09494160469c4ee53cb65d441) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '08f3966b24a5bc06d794dc872b9aa795') in 0.014079 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__6.png
+  artifactKey: Guid(af80e10d93ddcb5419818e2535f6c7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__6.png using Guid(af80e10d93ddcb5419818e2535f6c7e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '112c56c09f1a0b7ec8ffa462c29d2045') in 0.007924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/ground_dirt_dark_2.png
+  artifactKey: Guid(ee98aafe35d411c4ab1c63786b96bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/ground_dirt_dark_2.png using Guid(ee98aafe35d411c4ab1c63786b96bdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a726ccb225ad48b30642f4823ff6f13e') in 0.014847 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/puddle_small_4.png
+  artifactKey: Guid(16456de9861740e49bc1d45841965918) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/puddle_small_4.png using Guid(16456de9861740e49bc1d45841965918) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f4ae342188b1dc5297cb0e8ba4f39b7d') in 0.014268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__9.png
+  artifactKey: Guid(5b79409cc211555439b9668b9271de65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__9.png using Guid(5b79409cc211555439b9668b9271de65) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '35e34e1d7b1c2240456b8a8ca5d82e21') in 0.015515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_cave_6.png
+  artifactKey: Guid(355a77fc6d2760f4eb22f79307873594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_cave_6.png using Guid(355a77fc6d2760f4eb22f79307873594) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '09d0e42cbea6d6c733c58711a51b53fe') in 0.014264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_cave_13.png
+  artifactKey: Guid(13f14a02586cbfd4d9666c014078bb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_cave_13.png using Guid(13f14a02586cbfd4d9666c014078bb32) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fac55c7ef624a9a77ec6e093c442e1c7') in 0.016504 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_crypt_1.png
+  artifactKey: Guid(273ce254bd4156244af69756a7dbe999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_crypt_1.png using Guid(273ce254bd4156244af69756a7dbe999) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '76191108c56f6ca60535be2756f54fbb') in 0.007527 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_cave_11.png
+  artifactKey: Guid(c619c934e717ce9458e2e0ae59a8c403) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_cave_11.png using Guid(c619c934e717ce9458e2e0ae59a8c403) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f30384c5268549bf71967da34ee96355') in 0.015459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_cave_8.png
+  artifactKey: Guid(1b02380bdda8cb145a9651d83e0a2b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_cave_8.png using Guid(1b02380bdda8cb145a9651d83e0a2b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'bebfc8896ac3cc8e5e31c6d7a5c94fd5') in 0.014506 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_crypt_9.png
+  artifactKey: Guid(4590e884236a35e41bc9ef9dce522b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_crypt_9.png using Guid(4590e884236a35e41bc9ef9dce522b80) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c75682c6ef7fc58a1bbd6a68f519f054') in 0.013743 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_cave_16.png
+  artifactKey: Guid(8bb37876cce3c0348b146e69795c03df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_cave_16.png using Guid(8bb37876cce3c0348b146e69795c03df) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '91da4a24ba0c79042885f429978d502e') in 0.015333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__10.png
+  artifactKey: Guid(cd514e469065d8f4cbf0d41c8dc1931d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__10.png using Guid(cd514e469065d8f4cbf0d41c8dc1931d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd9aaa1a84988cbdc8db11457c016277b') in 0.015449 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/lilypad_a1.png
+  artifactKey: Guid(0009852710f5cd64fa795450b82627bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/lilypad_a1.png using Guid(0009852710f5cd64fa795450b82627bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '64720c261ad19d6d02db49552b363f30') in 0.014288 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/leaves_green.png
+  artifactKey: Guid(859bbf2c11f31cd49afafdeed2de5878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/leaves_green.png using Guid(859bbf2c11f31cd49afafdeed2de5878) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '96436bbef3953ed1626da5521d2a3958') in 0.013327 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_cave_10.png
+  artifactKey: Guid(9ce75e0f76d060042a207d2feaaca765) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_cave_10.png using Guid(9ce75e0f76d060042a207d2feaaca765) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6926a9af9be8572c1e926a1775e32ff4') in 0.017200 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/torch1_floor.png
+  artifactKey: Guid(ff2c8fe8e474b6442bff88b205ecb2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/torch1_floor.png using Guid(ff2c8fe8e474b6442bff88b205ecb2fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ebbd53f7512b947a309ed301029f1a4a') in 0.014002 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__8.png
+  artifactKey: Guid(2471947430d12b74d84fa1162879549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__8.png using Guid(2471947430d12b74d84fa1162879549f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'cea33f48dfb9c235f1b094de5c50599f') in 0.012860 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__20.png
+  artifactKey: Guid(0d1a3a26d99e2f84090d3f36cca3359b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/uf_terrain__20.png using Guid(0d1a3a26d99e2f84090d3f36cca3359b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'afa45fa370aaf86d15044988277659ee') in 0.014110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.013635 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_crypt_11.png
+  artifactKey: Guid(6be2a9aaf89a26945b71a913339484d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_crypt_11.png using Guid(6be2a9aaf89a26945b71a913339484d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '92c193a9a1d85c291d4fbe55499b37f3') in 0.015542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_crypt_16.png
+  artifactKey: Guid(49937b46ba3382e489a809e9b5fa596b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_crypt_16.png using Guid(49937b46ba3382e489a809e9b5fa596b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'de9b1df61eca2a776b7e8a5e0d07b836') in 0.015408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_hedge_12.png
+  artifactKey: Guid(eca7ba6bab9065d449c1dda2c796d540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_hedge_12.png using Guid(eca7ba6bab9065d449c1dda2c796d540) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '196872c139e494a7c978992247932796') in 0.017692 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_hedge_14.png
+  artifactKey: Guid(df3ffa48ea213594a8eb851ab9b88d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_hedge_14.png using Guid(df3ffa48ea213594a8eb851ab9b88d4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7931a0e0369243a3e02dbb76f846b26c') in 0.012796 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_hedge_15.png
+  artifactKey: Guid(8b0abbdfc0b458f4bb1c96e7d3545e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_hedge_15.png using Guid(8b0abbdfc0b458f4bb1c96e7d3545e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8ddf9a27064c134c4ec49db3bd40444b') in 0.016413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_hedge_4.png
+  artifactKey: Guid(48c8675fb236dc34a8b27e917b0b93ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_hedge_4.png using Guid(48c8675fb236dc34a8b27e917b0b93ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '82acf5bbf6c2ddb6ee9d3cbccaa5d3db') in 0.015380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_dungeon_17.png
+  artifactKey: Guid(ffdb1405860d8634696466f0f6008a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_dungeon_17.png using Guid(ffdb1405860d8634696466f0f6008a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c0eb746f24fb14b0a6d6f2ec9d6e1cb3') in 0.013791 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_crypt_13.png
+  artifactKey: Guid(2ac6eba3e41e042488562f08ef508201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_crypt_13.png using Guid(2ac6eba3e41e042488562f08ef508201) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '28bc1214eb0224e9cf325d08184d453f') in 0.016623 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_dungeon.png
+  artifactKey: Guid(6fdf299bb0741d14ca9395761ffc551f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_dungeon.png using Guid(6fdf299bb0741d14ca9395761ffc551f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fdd086ffe124fc59db7570be492162d1') in 0.014665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_dungeon_10.png
+  artifactKey: Guid(152a73af20443ae47a99ce871e2e3be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_dungeon_10.png using Guid(152a73af20443ae47a99ce871e2e3be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '877207b5892cd6c529f447a1264ecaef') in 0.016429 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_dungeon_11.png
+  artifactKey: Guid(742d6bb52f823bf4f98dcd2c02ac55ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_dungeon_11.png using Guid(742d6bb52f823bf4f98dcd2c02ac55ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '09a0ebdd4c442a84d733cda913f9953d') in 0.015196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_dungeon_6.png
+  artifactKey: Guid(d2072725d67eaa44ca6b355f1a155d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_dungeon_6.png using Guid(d2072725d67eaa44ca6b355f1a155d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f8e812fdf6caafedfc8bfeb529b6582d') in 0.014043 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_crypt_15.png
+  artifactKey: Guid(3d2434c09e2a5bc448d598e23d3f8b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_crypt_15.png using Guid(3d2434c09e2a5bc448d598e23d3f8b17) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '553317146a3e225b031598c9de6b11eb') in 0.017618 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_hedge_8.png
+  artifactKey: Guid(09ba4fc3fc7ef054f94bc39f18fd787e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_hedge_8.png using Guid(09ba4fc3fc7ef054f94bc39f18fd787e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e0d00f7e30b03ec3d13bd56a8833752c') in 0.014967 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_hedge_10.png
+  artifactKey: Guid(119e678b9c1653f4ca0a0789a92c2e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_hedge_10.png using Guid(119e678b9c1653f4ca0a0789a92c2e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '703b5d942f114999c5270230d8541b05') in 0.018068 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_hedge_3.png
+  artifactKey: Guid(b2f6c3773ddd7c64ca3f5fc132179b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_hedge_3.png using Guid(b2f6c3773ddd7c64ca3f5fc132179b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f0fcd09a4fc6d4f213179b196bf46b3c') in 0.015859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_ruins.png
+  artifactKey: Guid(c747b2e7e4070ad4cb5dc83b045a855f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_ruins.png using Guid(c747b2e7e4070ad4cb5dc83b045a855f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'ee833ad8af2f21f7c6bb24e1324f9cd5') in 0.014859 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_dungeon_2.png
+  artifactKey: Guid(bc20c59375458a24bbf5ae97a91f0b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_dungeon_2.png using Guid(bc20c59375458a24bbf5ae97a91f0b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b6f6dc520d33ca1cf1f7a375b6d33147') in 0.015085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.376701 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_ruins_7.png
+  artifactKey: Guid(7992a1414f812aa4491b57ddccf7a0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_ruins_7.png using Guid(7992a1414f812aa4491b57ddccf7a0bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f273d027ba67b07e95cb4ec12af744b9') in 0.017579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_ruins_16.png
+  artifactKey: Guid(ba8b480079da0b0429b965d93ef2ea22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_ruins_16.png using Guid(ba8b480079da0b0429b965d93ef2ea22) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8d268a835624c4e6d101512c859c8b1d') in 0.014672 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/water_green_2.png
+  artifactKey: Guid(b110282a21a606f4db7929c43188f507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/water_green_2.png using Guid(b110282a21a606f4db7929c43188f507) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'b36e0e76183be9fc042b7616151683f0') in 0.018562 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_ruins_15.png
+  artifactKey: Guid(1aba857cecca70549a243650cb1f2a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_ruins_15.png using Guid(1aba857cecca70549a243650cb1f2a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0ae83202419271e31036d57248e192cf') in 0.014240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/water_edging_6.png
+  artifactKey: Guid(afae8855eabef9f4686a4179b2ad099f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/water_edging_6.png using Guid(afae8855eabef9f4686a4179b2ad099f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5dc6f0c5cfe3e1613c87a493368ac867') in 0.017698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/water_bubbling.png
+  artifactKey: Guid(e2a1561f705090e4ea74ebc0123e9d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/water_bubbling.png using Guid(e2a1561f705090e4ea74ebc0123e9d2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '068dbe158c2f3319051b63f1ba522d09') in 0.014681 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_ruins_10.png
+  artifactKey: Guid(f945bc3fa03f21a4e919edd7876ec920) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_ruins_10.png using Guid(f945bc3fa03f21a4e919edd7876ec920) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4d90d1149187cf2eaf83617ea980e00f') in 0.015128 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_stone_1.png
+  artifactKey: Guid(511d9fab9575b704098be4141a4377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_stone_1.png using Guid(511d9fab9575b704098be4141a4377fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '0d15951242e6b2ef28c516598d9743cc') in 0.018021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_stone_2.png
+  artifactKey: Guid(2324dec4bf5a0d04aba10d11fff4a18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_stone_2.png using Guid(2324dec4bf5a0d04aba10d11fff4a18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '55d8e120860f10922ea60555fc5724ca') in 0.017237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_stone_8.png
+  artifactKey: Guid(3b46e6ce563c3314599a0c3706c1988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_stone_8.png using Guid(3b46e6ce563c3314599a0c3706c1988b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '50a53964af8d56e4025446cdeb536991') in 0.016051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/water_edging_10.png
+  artifactKey: Guid(a2e1f8c4e3691bf44913f0512753d190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/water_edging_10.png using Guid(a2e1f8c4e3691bf44913f0512753d190) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c8f2ea804f61ee1b53f4c2e9400378f5') in 0.016380 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/water_bubbling_3.png
+  artifactKey: Guid(bf93c739660282446992503221b28647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/water_bubbling_3.png using Guid(bf93c739660282446992503221b28647) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'c8a9632615341500bd843ec59394d4db') in 0.016117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_stone_3.png
+  artifactKey: Guid(5e6fd9ef0fd8320459b9eb8abd30a423) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_stone_3.png using Guid(5e6fd9ef0fd8320459b9eb8abd30a423) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e8a90e6ec81262f8f10e6136230f5bec') in 0.016603 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_stone_5.png
+  artifactKey: Guid(a2782e4020348f444b915d840ac2ffa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_stone_5.png using Guid(a2782e4020348f444b915d840ac2ffa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '10e65aa57654a5bac70fc8c096c99d38') in 0.015272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_stone_15.png
+  artifactKey: Guid(a44e34c47f3c5a34ca43398c858e3bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_stone_15.png using Guid(a44e34c47f3c5a34ca43398c858e3bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '424d854484466b75b31230f0dce3625d') in 0.015862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/water_lava.png
+  artifactKey: Guid(96eedf4eef8800d46bccd85927e05a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/water_lava.png using Guid(96eedf4eef8800d46bccd85927e05a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a32933a781f8db6ef26c1acb9efc300e') in 0.015605 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/water_mud_3.png
+  artifactKey: Guid(b266782ad2142aa4788c795d8c249d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/water_mud_3.png using Guid(b266782ad2142aa4788c795d8c249d10) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'f33707c19f80ece88bb9f01c91dd3154') in 0.014141 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/water_lip_3.png
+  artifactKey: Guid(83657968d493d7040b495315af7ca235) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/water_lip_3.png using Guid(83657968d493d7040b495315af7ca235) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'e3b8cf8823f5a0f1676d8d33bdd11fcd') in 0.014935 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/web_1.png
+  artifactKey: Guid(8c4a8d8ec3be1a84bbf4aeefb5582f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/web_1.png using Guid(8c4a8d8ec3be1a84bbf4aeefb5582f5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '495987c40bfb6b04d9bbf208fc1a5d0a') in 0.016445 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/water_lava_2.png
+  artifactKey: Guid(276f5370495f583419966ce140c6b788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/water_lava_2.png using Guid(276f5370495f583419966ce140c6b788) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '1d165eb799f06ff70fe0b44d1ef7f720') in 0.015725 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/water_teal.png
+  artifactKey: Guid(22d1c8f37495c3e48a72cb68d1be66a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/water_teal.png using Guid(22d1c8f37495c3e48a72cb68d1be66a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '8a3ae10976b7ac32c18faae1bb2c195d') in 0.014534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/water_green_3.png
+  artifactKey: Guid(1778f16f91944144baec83a723417961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/water_green_3.png using Guid(1778f16f91944144baec83a723417961) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '491912b36823117fcd408757c302a443') in 0.014711 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_stone_17.png
+  artifactKey: Guid(f843a15816d20e0458d6fa75170e3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_stone_17.png using Guid(f843a15816d20e0458d6fa75170e3db2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '728745a78a9457ab3512eb8ad7f46833') in 0.014482 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/wall_stone_18.png
+  artifactKey: Guid(93bafa9385607fc408395f585efb8075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/wall_stone_18.png using Guid(93bafa9385607fc408395f585efb8075) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '5fcb3fb99c9d266762897d5d977378e3') in 0.016088 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Visual Assets/Oryx/uf_terrain/water_edging_3.png
+  artifactKey: Guid(f54ff8d975d8d324c91d39f5d55ac43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Visual Assets/Oryx/uf_terrain/water_edging_3.png using Guid(f54ff8d975d8d324c91d39f5d55ac43e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '01834a2220670972942374b168d6a224') in 0.014398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

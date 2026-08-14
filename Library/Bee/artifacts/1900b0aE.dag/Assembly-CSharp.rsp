@@ -382,6 +382,7 @@
 "Assets/Scripts/Camera/CameraFollow.cs"
 "Assets/Scripts/EnemyTriangle.cs"
 "Assets/Scripts/InputController.cs"
+"Assets/Scripts/PlayerAnimationHandler.cs"
 "Assets/Scripts/PlayerSquare.cs"
 -langversion:9.0
 /deterministic

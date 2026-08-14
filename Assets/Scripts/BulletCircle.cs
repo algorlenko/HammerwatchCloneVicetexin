@@ -6,12 +6,12 @@ using UnityEngine.Pool;
 [RequireComponent(typeof(Rigidbody2D))]
 public class BulletCircle : MonoBehaviour
 {
-    private const float BulletDurationSeconds = 2f;
+    [SerializeField] float BulletDurationSeconds = 2f;
     [SerializeField] private Rigidbody2D myBody;
     private IObjectPool<BulletCircle> objectPool;
     public IObjectPool<BulletCircle> ObjectPool { set => objectPool = value; }
 
-    void Awake()
+    void OnEnable()
     {
         StartCoroutine(BulletTimeOutAfterDelay(BulletDurationSeconds));
     }
