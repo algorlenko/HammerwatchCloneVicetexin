@@ -9,8 +9,8 @@ using UnityEngine.InputSystem;
 public class PlayerSquare : MonoBehaviour
 {
     [SerializeField] BulletCircle bulletPrefab;
-    [SerializeField] Camera myCamera;
-    [SerializeField] Rigidbody2D myRigidBody;
+    [SerializeField] public Camera myCamera;
+    [SerializeField] public Rigidbody2D myRigidBody;
     [SerializeField] float moveSpeed = 1f;
     [SerializeField] float bulletSpeed = 2f;
     private bool isShooting = false;
@@ -26,13 +26,15 @@ public class PlayerSquare : MonoBehaviour
     public Action<float> OnFireRateChanged;
     [SerializeField] float fireCoolDown;
     [SerializeField] BulletObjectPool playerBulletPool;
-    [SerializeField] SpriteRenderer mySprite;
+    [SerializeField] public SpriteRenderer mySprite;
     
     public void FireBullet()
     {
         // BulletCircle currentBullet = Instantiate(bulletPrefab, transform.position, quaternion.identity);
         // above is the old non object pooled way of making a bullet
-        OnShootingChanged?.Invoke();
+        Vector2 directionVector = myCamera.ScreenToWorldPoint(Input.mousePosition) - this.transform.position;
+
+        OnShootingChanged?.Invoke(directionVector);
         BulletCircle currentBullet = playerBulletPool.objectPool.Get();
         currentBullet.transform.position = transform.position;
         currentBullet.SetRbVelocity(Vector2.ClampMagnitude(myCamera.ScreenToWorldPoint(Input.mousePosition) - this.transform.position, bulletSpeed));
@@ -54,7 +56,7 @@ public class PlayerSquare : MonoBehaviour
         }
     }
 
-    public Action OnShootingChanged;
+    public Action<Vector2> OnShootingChanged;
     public void StartShooting()
     {
         isShooting = true;
@@ -68,7 +70,7 @@ public class PlayerSquare : MonoBehaviour
     public void Move(Vector2 moveVector)
     {
         OnMovementChanged?.Invoke(!Mathf.Approximately(moveVector.magnitude, 0f));
-        mySprite.flipX = moveVector.x < 0;
+        if (!isShooting) mySprite.flipX = moveVector.x < 0; 
         //mySprite.flipY = moveVector.y < 0; // the HOMM3 spritesheet does not play nicely with flipping y
         myRigidBody.velocity = moveVector.normalized * moveSpeed;
     }

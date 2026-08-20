@@ -40,8 +40,17 @@ public class PlayerAnimationHandler : MonoBehaviour
         myAnimator.SetBool("isMoving", state);
     }
 
-    private void ToggleShootingAnim()
+    private void ToggleShootingAnim(Vector2 directionVector)
     {
+        charachterSquare.mySprite.flipX = directionVector.x < 0;
+        myAnimator.SetFloat("aimY", (directionVector.y >= 0 ? 1 : -1) * Vector2.Angle(new Vector2(directionVector.x, 0), directionVector));
         myAnimator.SetTrigger("isShooting");
+    }
+
+    private void CheckAndSetMovementDirection()
+    {
+        Vector2 directionVector = charachterSquare.myRigidBody.velocity;
+        //Vector2 directionVector = charachterSquare.myCamera.ScreenToWorldPoint(Input.mousePosition) - this.transform.position;
+        charachterSquare.mySprite.flipX = directionVector.x < 0;
     }
 }
