@@ -16,6 +16,8 @@ public class EnemyTriangle : MonoBehaviour, IDamagable
 
     public void TakeDamage(float damage)
     {
+        FloatingNumber damageText = (FloatingNumber) PoolManager.Instance.textPool.objectPool.Get();
+        damageText.initText(damage.ToString(), transform.position);
         StartCoroutine(FlashRed(.2f));
         currentHp -= damage;
         if (currentHp <= 0)

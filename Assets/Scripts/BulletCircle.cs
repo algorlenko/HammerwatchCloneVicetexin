@@ -4,13 +4,12 @@ using UnityEngine;
 using UnityEngine.Pool;
 
 [RequireComponent(typeof(Rigidbody2D))]
-public class BulletCircle : MonoBehaviour
+public class BulletCircle : PoolableObject
 {
     [SerializeField] float BulletDurationSeconds = 2f;
     [SerializeField] private Rigidbody2D myBody;
-    private IObjectPool<BulletCircle> objectPool;
     float damage;
-    public IObjectPool<BulletCircle> ObjectPool { set => objectPool = value; }
+
 
     void OnEnable()
     {

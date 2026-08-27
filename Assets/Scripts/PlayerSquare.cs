@@ -28,7 +28,7 @@ public class PlayerSquare : MonoBehaviour
     }
     public Action<float> OnFireRateChanged;
     [SerializeField] float fireCoolDown;
-    [SerializeField] BulletObjectPool playerBulletPool;
+    [SerializeField] ObjectPool playerBulletPool;
     [SerializeField] public SpriteRenderer mySprite;
     
     public void FireBullet()
@@ -38,7 +38,7 @@ public class PlayerSquare : MonoBehaviour
         Vector2 directionVector = (myCamera.ScreenToWorldPoint(Input.mousePosition) - this.transform.position).normalized;
 
         OnShootingChanged?.Invoke(directionVector);
-        BulletCircle currentBullet = playerBulletPool.objectPool.Get();
+        BulletCircle currentBullet = (BulletCircle) playerBulletPool.objectPool.Get();
         Vector2 bulletOffset = directionVector * bulletOffsetMagnitude;
         currentBullet.transform.position = transform.position + new Vector3(bulletOffset.x, bulletOffset.y, 0);
         currentBullet.InitBullet(directionVector * bulletSpeed, bulletPower);
