@@ -672,8 +672,9 @@ MonoBehaviour:
   myCamera: {fileID: 519420031}
   myRigidBody: {fileID: 581063668}
   moveSpeed: 10
-  bulletSpeed: 2
-  _fireRate: 1
+  bulletSpeed: 20
+  _fireRate: 0.3
+  bulletOffsetMagnitude: 1
   fireCoolDown: 0
   playerBulletPool: {fileID: 2048389563}
   mySprite: {fileID: 581063666}
@@ -3124,7 +3125,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab48aa0aabc6812419ce98d0a9b32a5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hp: 10
+  hp: 20
+  mySpriteRenderer: {fileID: 1193472289}
 --- !u!1 &1231379292
 GameObject:
   m_ObjectHideFlags: 0

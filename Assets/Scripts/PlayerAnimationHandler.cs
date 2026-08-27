@@ -49,7 +49,7 @@ public class PlayerAnimationHandler : MonoBehaviour
 
     private void CheckAndSetMovementDirection()
     {
-        Vector2 directionVector = charachterSquare.myRigidBody.velocity;
+        Vector2 directionVector = charachterSquare.rbVelocity;
         //Vector2 directionVector = charachterSquare.myCamera.ScreenToWorldPoint(Input.mousePosition) - this.transform.position;
         charachterSquare.mySprite.flipX = directionVector.x < 0;
     }

@@ -381,6 +381,7 @@
 "Assets/Scripts/BulletSpawnerButton.cs"
 "Assets/Scripts/Camera/CameraFollow.cs"
 "Assets/Scripts/EnemyTriangle.cs"
+"Assets/Scripts/IDamagable.cs"
 "Assets/Scripts/InputController.cs"
 "Assets/Scripts/PlayerAnimationHandler.cs"
 "Assets/Scripts/PlayerSquare.cs"

@@ -1,34 +1,33 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 
-public class EnemyTriangle : MonoBehaviour
+public class EnemyTriangle : MonoBehaviour, IDamagable
 {
-
-    [SerializeField] int hp = 5;
-
-
-    private void HitByBullet()
+    [SerializeField] float maxHp = 20;
+    float currentHp;
+    [SerializeField] SpriteRenderer mySpriteRenderer;
+    public void Start()
     {
-        hp -= 1;
-        if(hp <= 0)
+        currentHp = maxHp;
+    }
+
+    public void TakeDamage(float damage)
+    {
+        StartCoroutine(FlashRed(.2f));
+        currentHp -= damage;
+        if (currentHp <= 0)
         {
             Destroy(gameObject);
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private IEnumerator FlashRed(float delaySeconds)
     {
-        if (collision.gameObject.CompareTag("Bullet"))
-        {
-            HitByBullet();
-        }
-    }
-    private void OnTriggerExit2D(Collider2D collision)
-    {
-        if (collision.gameObject.CompareTag("Player"))
-        {
-        }
+        mySpriteRenderer.color = Color.red;
+        yield return new WaitForSeconds(delaySeconds);
+        mySpriteRenderer.color = Color.white;
     }
 }
