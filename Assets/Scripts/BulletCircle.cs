@@ -9,7 +9,7 @@ public class BulletCircle : PoolableObject
     [SerializeField] float BulletDurationSeconds = 2f;
     [SerializeField] private Rigidbody2D myBody;
     float damage;
-
+    string bulletOwner; //Maybe change this to something better later, like marking the owning object or have like faction IDs.
 
     void OnEnable()
     {
@@ -26,8 +26,9 @@ public class BulletCircle : PoolableObject
         myBody.angularVelocity = 0;
         objectPool.Release(this);
     }
-    public void InitBullet(Vector2 moveVector, float initialDamage)
+    public void InitBullet(Vector2 moveVector, float initialDamage, Unit myBulletOwner)
     {
+        bulletOwner = myBulletOwner.tag;
         damage = initialDamage;
         SetRbVelocity(moveVector);
     }
@@ -39,8 +40,12 @@ public class BulletCircle : PoolableObject
     {
         if (collision.gameObject.TryGetComponent<IDamagable>(out IDamagable damagedTarget))
         {
-            damagedTarget.TakeDamage(damage);
-            objectPool.Release(this);
+            if(!collision.gameObject.CompareTag(bulletOwner))
+            {
+                damagedTarget.TakeDamage(damage);
+                objectPool.Release(this);
+            }
+
         }
     }
 

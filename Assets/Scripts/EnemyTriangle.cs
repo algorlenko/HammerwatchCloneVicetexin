@@ -3,33 +3,20 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class EnemyTriangle : MonoBehaviour, IDamagable
+public class EnemyTriangle : Unit
 {
-    [SerializeField] float maxHp = 20;
-    float currentHp;
-    [SerializeField] SpriteRenderer mySpriteRenderer;
-    public void Start()
+    [SerializeField] PlayerSquare playerUnit;
+    [SerializeField] float aggroRadius = 3;
+    public override void Update()
     {
-        currentHp = maxHp;
+        isShooting = (playerUnit.transform.position - transform.position).magnitude <= aggroRadius;
+        base.Update();
     }
 
-    public void TakeDamage(float damage)
+    public override Vector2 getAimingVector()
     {
-        FloatingNumber damageText = (FloatingNumber) PoolManager.Instance.textPool.objectPool.Get();
-        damageText.initText(damage.ToString(), transform.position);
-        StartCoroutine(FlashRed(.2f));
-        currentHp -= damage;
-        if (currentHp <= 0)
-        {
-            Destroy(gameObject);
-        }
-    }
-
-    private IEnumerator FlashRed(float delaySeconds)
-    {
-        mySpriteRenderer.color = Color.red;
-        yield return new WaitForSeconds(delaySeconds);
-        mySpriteRenderer.color = Color.white;
+        return (playerUnit.transform.position - this.transform.position).normalized;
     }
 }

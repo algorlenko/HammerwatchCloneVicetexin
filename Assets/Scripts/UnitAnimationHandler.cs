@@ -2,10 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerAnimationHandler : MonoBehaviour
+public class UnitAnimationHandler : MonoBehaviour
 {
     [SerializeField] Animator myAnimator;
-    private PlayerSquare charachterSquare;
+    private Unit animatedUnit;
     [SerializeField] AnimationClip shootingAnimation;
     private void Awake()
     {
@@ -13,21 +13,21 @@ public class PlayerAnimationHandler : MonoBehaviour
         {
             myAnimator = GetComponent<Animator>();
         }
-        charachterSquare = GetComponent<PlayerSquare>();
+        animatedUnit = GetComponent<Unit>();
     }
 
     private void OnEnable()
     {
-        charachterSquare.OnMovementChanged += ToggleMovementAnim;
-        charachterSquare.OnShootingChanged += ToggleShootingAnim;
-        charachterSquare.OnFireRateChanged += ChangeAnimationSpeed;
+        animatedUnit.OnMovementChanged += ToggleMovementAnim;
+        animatedUnit.OnShootingChanged += ToggleShootingAnim;
+        animatedUnit.OnFireRateChanged += ChangeAnimationSpeed;
     }
 
     private void OnDisable()
     {
-        charachterSquare.OnMovementChanged -= ToggleMovementAnim;
-        charachterSquare.OnShootingChanged -= ToggleShootingAnim;
-        charachterSquare.OnFireRateChanged -= ChangeAnimationSpeed;
+        animatedUnit.OnMovementChanged -= ToggleMovementAnim;
+        animatedUnit.OnShootingChanged -= ToggleShootingAnim;
+        animatedUnit.OnFireRateChanged -= ChangeAnimationSpeed;
     }
 
     private void ChangeAnimationSpeed(float newSpeed)
@@ -42,15 +42,15 @@ public class PlayerAnimationHandler : MonoBehaviour
 
     private void ToggleShootingAnim(Vector2 directionVector)
     {
-        charachterSquare.mySprite.flipX = directionVector.x < 0;
+        animatedUnit.mySprite.flipX = directionVector.x < 0;
         myAnimator.SetFloat("aimY", (directionVector.y >= 0 ? 1 : -1) * Vector2.Angle(new Vector2(directionVector.x, 0), directionVector));
         myAnimator.SetTrigger("isShooting");
     }
 
     private void CheckAndSetMovementDirection()
     {
-        Vector2 directionVector = charachterSquare.rbVelocity;
+        Vector2 directionVector = animatedUnit.rbVelocity;
         //Vector2 directionVector = charachterSquare.myCamera.ScreenToWorldPoint(Input.mousePosition) - this.transform.position;
-        charachterSquare.mySprite.flipX = directionVector.x < 0;
+        animatedUnit.mySprite.flipX = directionVector.x < 0;
     }
 }

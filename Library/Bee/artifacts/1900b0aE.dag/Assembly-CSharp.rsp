@@ -383,14 +383,16 @@
 "Assets/Scripts/BulletSpawnerButton.cs"
 "Assets/Scripts/Camera/CameraFollow.cs"
 "Assets/Scripts/EnemyTriangle.cs"
+"Assets/Scripts/HealthBar.cs"
 "Assets/Scripts/IDamagable.cs"
 "Assets/Scripts/InputController.cs"
 "Assets/Scripts/ObjectPool.cs"
-"Assets/Scripts/PlayerAnimationHandler.cs"
 "Assets/Scripts/PlayerSquare.cs"
 "Assets/Scripts/PoolableObject.cs"
 "Assets/Scripts/PoolManager.cs"
 "Assets/Scripts/UI/FloatingNumber.cs"
+"Assets/Scripts/Unit.cs"
+"Assets/Scripts/UnitAnimationHandler.cs"
 -langversion:9.0
 /deterministic
 /optimize+
