@@ -37,21 +37,27 @@ public class UnitAnimationHandler : MonoBehaviour
 
     private void ToggleMovementAnim(bool state)
     {
-        CheckAndSetMovementDirection();
+        CheckAndSetFacingDirection(Vector2.zero, false);
         myAnimator.SetBool("isMoving", state);
     }
 
-    private void ToggleShootingAnim(Vector2 directionVector)
+    private void ToggleShootingAnim(Vector2 directionVector, bool state)
     {
-        animatedUnit.mySprite.flipX = directionVector.x < 0;
-        myAnimator.SetFloat("aimY", (directionVector.y >= 0 ? 1 : -1) * Vector2.Angle(new Vector2(directionVector.x, 0), directionVector));
-        myAnimator.SetTrigger("isShooting");
+        myAnimator.SetBool("isShooting", state);
+        CheckAndSetFacingDirection(directionVector, state);
     }
 
-    private void CheckAndSetMovementDirection()
+    private void CheckAndSetFacingDirection(Vector2 directionVector, bool isAiming)
     {
-        Vector2 directionVector = animatedUnit.rbVelocity;
+        if (animatedUnit.isShooting && !isAiming) { return; }
+        directionVector = animatedUnit.isShooting ? directionVector : animatedUnit.rbVelocity;
+        if(animatedUnit.isShooting)
+        {
+            myAnimator.SetFloat("aimY", (directionVector.y >= 0 ? 1 : -1) * Vector2.Angle(new Vector2(directionVector.x, 0), directionVector));
+        }
+        myAnimator.SetFloat("aimX", directionVector.x < 0 ? -1 : 1);
+        
         //Vector2 directionVector = charachterSquare.myCamera.ScreenToWorldPoint(Input.mousePosition) - this.transform.position;
-        animatedUnit.mySprite.flipX = directionVector.x < 0;
+
     }
 }

@@ -15,7 +15,7 @@ public class Unit : MonoBehaviour, IDamagable
     [SerializeField] Rigidbody2D myRigidBody;
     [SerializeField] float moveSpeed = 1f;
     [SerializeField] float bulletSpeed = 2f;
-    protected bool isShooting = false;
+    public bool isShooting = false;
     [SerializeField] float _fireRate = 0.3f;
     [SerializeField] float bulletOffsetMagnitude = 1;
     [SerializeField] float bulletPower = 2;
@@ -59,14 +59,14 @@ public class Unit : MonoBehaviour, IDamagable
     {
         // BulletCircle currentBullet = Instantiate(bulletPrefab, transform.position, quaternion.identity);
         // above is the old non object pooled way of making a bullet
-        OnShootingChanged?.Invoke(aimingVector);
+        OnShootingChanged?.Invoke(aimingVector, true);
         BulletCircle currentBullet = (BulletCircle)playerBulletPool.objectPool.Get();
         Vector2 bulletOffset = aimingVector * bulletOffsetMagnitude;
         currentBullet.transform.position = transform.position + new Vector3(bulletOffset.x, bulletOffset.y, 0);
         currentBullet.InitBullet(aimingVector * bulletSpeed, bulletPower, this);
     }
 
-    public Action<Vector2> OnShootingChanged;
+    public Action<Vector2, bool> OnShootingChanged;
     public void StartShooting()
     {
         isShooting = true;
@@ -74,6 +74,7 @@ public class Unit : MonoBehaviour, IDamagable
     public void CancelShooting()
     {
         isShooting = false;
+        OnShootingChanged?.Invoke(Vector2.zero, false);
     }
 
     public Action<bool> OnMovementChanged;
