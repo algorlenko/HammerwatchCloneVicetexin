@@ -3641,7 +3641,8 @@ MonoBehaviour:
   playerBulletPool: {fileID: 95663322}
   mySprite: {fileID: 1193472289}
   playerUnit: {fileID: 581063667}
-  aggroRadius: 4
+  shootingRadius: 2
+  aggroRadius: 6
 --- !u!50 &1193472292
 Rigidbody2D:
   serializedVersion: 4
@@ -3650,7 +3651,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1193472287}
-  m_BodyType: 2
+  m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0

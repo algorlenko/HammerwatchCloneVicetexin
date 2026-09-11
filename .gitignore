@@ -2,3 +2,8 @@
 /Library/Artifacts/00
 Library/ArtifactDB
 Library/ArtifactDB
+/Logs
+/Logs
+*.log
+*.log
+/Logs

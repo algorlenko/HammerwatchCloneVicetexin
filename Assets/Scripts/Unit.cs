@@ -80,10 +80,11 @@ public class Unit : MonoBehaviour, IDamagable
 
     public void Move(Vector2 moveVector)
     {
+        myRigidBody.velocity = moveVector.normalized * moveSpeed;
         OnMovementChanged?.Invoke(!Mathf.Approximately(moveVector.magnitude, 0f));
         // if (!isShooting) mySprite.flipX = moveVector.x < 0; 
         //mySprite.flipY = moveVector.y < 0; // the HOMM3 spritesheet does not play nicely with flipping y
-        myRigidBody.velocity = moveVector.normalized * moveSpeed;
+
     }
 
     public void TakeDamage(float damage)

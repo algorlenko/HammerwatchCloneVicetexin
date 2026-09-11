@@ -37,6 +37,7 @@ public class UnitAnimationHandler : MonoBehaviour
 
     private void ToggleMovementAnim(bool state)
     {
+        CheckAndSetMovementDirection();
         myAnimator.SetBool("isMoving", state);
     }
 
