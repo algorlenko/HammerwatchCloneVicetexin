@@ -387,6 +387,7 @@
 "Assets/Scripts/IDamagable.cs"
 "Assets/Scripts/InputController.cs"
 "Assets/Scripts/ObjectPool.cs"
+"Assets/Scripts/PathfindingManager.cs"
 "Assets/Scripts/PlayerSquare.cs"
 "Assets/Scripts/PoolableObject.cs"
 "Assets/Scripts/PoolManager.cs"

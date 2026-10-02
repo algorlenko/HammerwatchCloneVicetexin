@@ -258,7 +258,7 @@ GameObject:
   - component: {fileID: 190003266}
   - component: {fileID: 190003265}
   - component: {fileID: 190003267}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Decoration Layer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -889,6 +889,7 @@ MonoBehaviour:
   myRigidBody: {fileID: 581063668}
   moveSpeed: 10
   bulletSpeed: 20
+  isShooting: 0
   _fireRate: 0.3
   bulletOffsetMagnitude: 1
   bulletPower: 2
@@ -1003,6 +1004,57 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myAnimator: {fileID: 581063670}
   shootingAnimation: {fileID: 7400000, guid: 5f5fec2b9ebe4a545b98fb6cbc246066, type: 2}
+--- !u!1 &738932473
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 738932475}
+  - component: {fileID: 738932474}
+  m_Layer: 0
+  m_Name: Pathfinding Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &738932474
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738932473}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4b098e87c91e034183e98f220298d27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gridOrigin: {x: -15, y: -15}
+  width: 30
+  height: 30
+  cellSize: 1
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 64
+--- !u!4 &738932475
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 738932473}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.8916888, y: -0.12415265, z: -0.047888335}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &774208621
 GameObject:
   m_ObjectHideFlags: 0
@@ -3179,7 +3231,7 @@ GameObject:
   - component: {fileID: 895865372}
   - component: {fileID: 895865371}
   - component: {fileID: 895865370}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall Layer
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3634,6 +3686,7 @@ MonoBehaviour:
   myRigidBody: {fileID: 1193472292}
   moveSpeed: 1
   bulletSpeed: 2
+  isShooting: 0
   _fireRate: 0.3
   bulletOffsetMagnitude: 1
   bulletPower: 1
@@ -3642,7 +3695,8 @@ MonoBehaviour:
   mySprite: {fileID: 1193472289}
   playerUnit: {fileID: 581063667}
   shootingRadius: 2
-  aggroRadius: 6
+  aggroRadius: 1000
+  pathFindDistanceMargin: 0.25
 --- !u!50 &1193472292
 Rigidbody2D:
   serializedVersion: 4
@@ -4163,3 +4217,4 @@ SceneRoots:
   - {fileID: 1231379296}
   - {fileID: 2048389564}
   - {fileID: 1440578973}
+  - {fileID: 738932475}
